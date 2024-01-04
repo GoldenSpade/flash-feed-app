@@ -1,0 +1,17 @@
+.see-all-btn {
+  color: $c-blue;
+  font-size: $fsz-4;
+  padding: 5px 10px;
+  border: solid 1px $c-blue;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: color $main-duration, background $main-duration;
+  &:hover {
+    background: $c-blue;
+    color: $c-white;
+  }
+  &--active {
+    background: $c-blue;
+    color: $c-white;
+  }
+}

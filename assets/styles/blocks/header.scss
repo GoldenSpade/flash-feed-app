@@ -1,0 +1,132 @@
+.header {
+  padding-top: 70px;
+  position: relative;
+  background: $c-black;
+  color: $c-white;
+  &__wrap {
+    position: relative;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 992px) {
+      flex-wrap: wrap;
+      padding-bottom: 40px;
+    }
+  }
+  &__col-1 {
+    flex: 0 1 50%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 992px) {
+      flex: 0 1 100%;
+      margin-right: 0;
+    }
+  }
+  &__col-2 {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 992px) {
+      flex: 0 1 100%;
+      align-items: center;
+    }
+  }
+  &__title {
+    font-family: $font-primary-bold;
+    width: 100%;
+    color: $c-light-grey;
+    font-size: $fsz-8;
+    line-height: 80px;
+    padding-bottom: 30px;
+    transition: color 400ms;
+    @media (max-width: 576px) {
+      font-size: $fsz-7;
+      line-height: 54px;
+      padding: 50px 0;
+    }
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+  &__subtitle {
+    width: 100%;
+    color: $c-light-grey;
+    transition: color 400ms;
+    font-family: $font-primary-bold;
+    font-size: $fsz-4;
+    line-height: 30px;
+    @media (max-width: 992px) {
+      padding-bottom: 30px;
+    }
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+
+  &__card {
+    max-width: max-content;
+    border-bottom: solid 1px $c-dark-grey;
+    padding: 20px 0;
+    display: flex;
+    font-family: $font-secondary-regular;
+    letter-spacing: 1px;
+    &:first-child {
+      padding-top: 0;
+    }
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+  &__card-img-wrap {
+    margin-right: 20px;
+  }
+  &__card-img {
+    width: 130px;
+    min-height: 130px;
+    object-fit: cover;
+    transition: transform 400ms;
+    &:hover {
+      transform: scale(105%);
+    }
+  }
+  &__card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__source {
+    color: $c-dark-grey;
+    padding-bottom: 15px;
+    line-height: 18px;
+  }
+  &__source-author {
+    &::after {
+      content: '|';
+      padding: 0 10px;
+      color: $c-dark-grey;
+    }
+  }
+  &__card-title {
+    color: $c-light-grey;
+    font-size: $fsz-4;
+    line-height: 24px;
+    padding-bottom: 15px;
+    transition: color 400ms;
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+  &__card-descr {
+    line-height: 22px;
+    color: $c-dark-grey;
+    transition: color 400ms;
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.footer {
+  padding: 40px 0;
+  background: $c-light-grey;
+  &__wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1em;
+  }
+  &__col {
+    display: flex;
+    flex-direction: column;
+  }
+  &__col-title {
+    font-family: $font-primary-bold;
+    padding-bottom: 20px;
+    @media (max-width: 555px) {
+      text-align: center;
+    }
+  }
+  &__col-list {
+    font-family: $font-secondary-regular;
+    letter-spacing: 1px;
+    color: $c-dark-grey;
+  }
+  &__col-list-li {
+    padding-bottom: 6px;
+    @media (max-width: 555px) {
+      text-align: center;
+    }
+  }
+  &__col-list-link {
+    transition: color 400ms;
+    &:hover {
+      color: $c-blue;
+    }
+  }
+}

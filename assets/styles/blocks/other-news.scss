@@ -1,0 +1,84 @@
+.other {
+  padding: 20px 0;
+  background: $c-black;
+  color: $c-white;
+  &__title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    font-family: $font-primary-bold;
+    font-size: $fsz-6;
+    line-height: 30px;
+    padding: 20px 0;
+  }
+  &__wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
+    grid-gap: 1em;
+  }
+  &__card {
+    height: 450px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: $c-white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  &__card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform $main-duration;
+    &:hover {
+      transform: scale(105%);
+    }
+  }
+  &__card-title {
+    display: block;
+    font-family: $font-primary-bold;
+    font-size: $fsz-6;
+    line-height: 30px;
+    color: $c-white;
+    padding: 20px 0;
+    transition: color $main-duration;
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+  &__card-subtitle {
+    display: block;
+    font-family: $font-primary-regular;
+    font-size: $fsz-5;
+    line-height: 28px;
+    color: $c-white;
+    padding-bottom: 20px;
+    transition: color $main-duration;
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+  &__card-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: $fsz-3;
+    color: $c-dark-grey;
+    padding-bottom: 8px;
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
+  &__card-published-at {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: $fsz-3;
+    letter-spacing: 1px;
+    color: $c-dark-grey;
+    padding-bottom: 15px;
+    line-height: 18px;
+  }
+}

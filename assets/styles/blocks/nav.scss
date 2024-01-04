@@ -1,0 +1,90 @@
+.nav {
+  min-width: 100%;
+  color: $c-white;
+  background: $c-black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $z-index-secondary;
+  color: $c-white;
+  &__wrap {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    color: $c-cyan;
+    font-size: $fsz-5;
+    cursor: pointer;
+  }
+  &__logo-caption {
+    color: $c-white;
+    padding-left: 2px;
+    transition: color $main-duration;
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+    @media (max-width: 930px) {
+      display: none;
+    }
+  }
+  &__menu-item {
+    margin-right: 14px;
+    cursor: pointer;
+    transition: color $main-duration;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      color: $c-cyan;
+    }
+  }
+  &__menu-show-mobile {
+    cursor: pointer;
+    @media (min-width: 930px) {
+      display: none;
+    }
+  }
+  &__menu-link {
+    color: $c-white;
+    border-bottom: solid 1px transparent;
+    padding-bottom: 2px;
+    transition: color $main-duration, border $main-duration;
+    &:hover {
+      color: $c-cyan;
+      border-bottom: solid 1px $c-cyan;
+      padding-bottom: 2px;
+    }
+  }
+  &__menu-link--active {
+    color: $c-cyan;
+    border-bottom: solid 1px $c-cyan;
+    padding-bottom: 2px;
+  }
+  &__btn {
+    color: $c-white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid 1px $c-white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: color $main-duration, border $main-duration;
+    &:hover {
+      color: $c-cyan;
+      border: solid 1px $c-cyan;
+    }
+    @media (max-width: 450px) {
+      display: none;
+    }
+  }
+}

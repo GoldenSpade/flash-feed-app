@@ -1,0 +1,43 @@
+@import './utils/resets';
+@import './utils/fonts';
+@import './utils/vars';
+
+@import './blocks/home';
+@import './blocks/container';
+@import './blocks/header';
+@import './blocks/nav';
+@import './blocks/nav-mobile';
+@import './blocks/newest';
+@import './blocks/see-all-btn';
+@import './blocks/trending';
+@import './blocks/authors';
+@import './blocks/other-news';
+@import './blocks/loader';
+@import './blocks/scroll-to-top';
+@import './blocks/footer';
+
+* {
+  box-sizing: border-box;
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $c-dark-grey;
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $c-black;
+    border-radius: 20px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-primary-regular;
+  font-size: $fsz-2;
+}

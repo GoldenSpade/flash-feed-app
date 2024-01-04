@@ -1,0 +1,30 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+  min-width: 100%;
+  min-height: 100vh;
+  background: $c-loadre-1;
+  z-index: $z-index-third;
+  &__inner {
+    border: 16px solid $c-loadre-2;
+    border-top: 16px solid $c-loadre-3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

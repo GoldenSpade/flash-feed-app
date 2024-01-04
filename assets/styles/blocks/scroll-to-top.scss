@@ -1,0 +1,38 @@
+.scroll-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: $z-index-third;
+  min-width: 70px;
+  min-height: 70px;
+  max-width: 70px;
+  max-height: 70px;
+  opacity: 0;
+  transition: opacity $secondary-duration;
+  background: $c-blue;
+  border-radius: 100px;
+  &--show {
+    opacity: 100;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    background: none;
+    outline: none;
+    min-width: 100%;
+    min-height: 100%;
+    cursor: pointer;
+  }
+  &__text {
+    text-align: center;
+    font-family: $font-primary-regular;
+    color: $c-white;
+    font-size: $fsz-4;
+    letter-spacing: 1px;
+  }
+}

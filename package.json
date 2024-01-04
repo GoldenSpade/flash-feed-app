@@ -1,0 +1,24 @@
+{
+  "name": "flash-feed-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia/nuxt": "^0.5.1",
+    "floating-vue": "^2.0.0-beta.24",
+    "nuxt": "^3.8.2",
+    "pinia": "^2.1.7",
+    "sass": "^1.69.5",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5",
+    "gh-pages": "^6.1.1"
+  }
+}
