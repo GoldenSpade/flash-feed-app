@@ -1,7 +1,224 @@
 export const mockNewsData = {
   status: 'ok',
-  totalResults: 100,
+  totalResults: 201,
   articles: [
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'These Crime Fighters Weigh in at 1,800 Pounds...',
+      description: null,
+      url: 'https://www.wsj.com/lifestyle/travel/buffalo-brazil-police-crime-fighters-8e821bd8',
+      urlToImage: null,
+      publishedAt: '2024-01-29T14:00:04Z',
+      content:
+        'These Crime Fighters Weigh in at 1,800 Pounds...Click here to read the full article The post These Crime Fighters Weigh in at 1,800 Pounds... captured from The Drudge Report column 2, link 13 on 1/29… [+353 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        "'What the Hell?' Europe Chafes at America's Protectionist Tilt...",
+      description: null,
+      url: 'https://www.wsj.com/politics/policy/us-europe-trade-relations-849fe23a',
+      urlToImage: null,
+      publishedAt: '2024-01-29T13:00:04Z',
+      content:
+        "'What the Hell?' Europe Chafes at America's Protectionist Tilt...Click here to read the full article The post 'What the Hell?' Europe Chafes at America's Protectionist Tilt... captured from The Drudg… [+375 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'TEHRAN ALLIES BRACE...',
+      description: null,
+      url: 'https://www.wsj.com/world/middle-east/iranian-allies-brace-for-u-s-response-to-deadly-drone-strike-99378749',
+      urlToImage: null,
+      publishedAt: '2024-01-29T13:00:04Z',
+      content:
+        'TEHRAN ALLIES BRACE...Click here to read the full article The post TEHRAN ALLIES BRACE... captured from The Drudge Report above the fold, link 3 on 1/29/2024 1:00:04 PM UTC. Browse more feeds built b… [+336 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: "IDF Struggles to Destroy Hamas's Gaza Tunnel Network...",
+      description: null,
+      url: 'https://www.wsj.com/world/middle-east/israel-struggles-to-destroy-hamass-gaza-tunnel-network-fb641122',
+      urlToImage: null,
+      publishedAt: '2024-01-28T13:00:07Z',
+      content:
+        "IDF Struggles to Destroy Hamas's Gaza Tunnel Network...Click here to read the full article The post IDF Struggles to Destroy Hamas's Gaza Tunnel Network... captured from The Drudge Report column 1, l… [+384 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        "Argentina President Promised Free Market Revolution -- And Says He's Delivering...",
+      description: null,
+      url: 'https://www.wsj.com/world/americas/argentinas-president-promised-a-free-market-revolution-and-says-hes-delivering-d9ff0eca',
+      urlToImage: null,
+      publishedAt: '2024-01-28T13:00:07Z',
+      content:
+        "Argentina President Promised Free Market Revolution -- And Says He's Delivering...Click here to read the full article The post Argentina President Promised Free Market Revolution -- And Says He's Del… [+459 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: "Is This Amelia Earhart's Long-Lost Plane?",
+      description: null,
+      url: 'https://www.wsj.com/science/amelia-earhart-lost-plane-found-843e9e9c',
+      urlToImage: null,
+      publishedAt: '2024-01-27T16:00:03Z',
+      content:
+        "Is This Amelia Earhart's Long-Lost Plane?Click here to read the full article The post Is This Amelia Earhart's Long-Lost Plane? captured from The Drudge Report column 3, link 4 on 1/27/2024 4:00:03 P… [+323 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Bianca Bosker',
+      title: 'What Being a Museum Guard Taught Me About Looking at Art',
+      description:
+        'Working at the Guggenheim showed Bianca Bosker that reading labels makes it harder to see what’s actually in front of us.',
+      url: 'https://www.wsj.com/arts-culture/fine-art/what-being-a-museum-guard-taught-me-about-looking-at-art-6890e31d',
+      urlToImage: 'https://images.wsj.net/im-915451/social',
+      publishedAt: '2024-01-27T14:00:17Z',
+      content:
+        'In 2019 I applied to be a security guard at the Guggenheim Museum in New York. According to the job description, Id need to tell people that flash photography wasnt permitted, but I was also expected… [+1467 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'Senior adviser to Pope accused of sex assault...',
+      description: null,
+      url: 'https://www.wsj.com/world/canadian-cardinal-accused-of-sexual-assault-e5cd3cc1',
+      urlToImage: null,
+      publishedAt: '2024-01-26T23:00:07Z',
+      content:
+        'Senior adviser to Pope accused of sex assault...Click here to read the full article The post Senior adviser to Pope accused of sex assault... captured from The Drudge Report column 2, link 6 on 1/26/… [+349 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'This Is What $10 Million Vacation Looks Like...',
+      description: null,
+      url: 'https://www.wsj.com/lifestyle/travel/what-a-10-million-vacation-looks-like-8893ba0f',
+      urlToImage: null,
+      publishedAt: '2024-01-26T19:00:04Z',
+      content:
+        'This Is What $10 Million Vacation Looks Like...Click here to read the full article The post This Is What $10 Million Vacation Looks Like... captured from The Drudge Report column 2, link 17 on 1/26/2… [+352 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'NOONAN: Nikki Haley Should Go for Broke...',
+      description: null,
+      url: 'https://www.wsj.com/articles/nikki-haley-should-go-for-broke-veteran-speechwriter-gives-advice-to-beat-trump-ae68c70c',
+      urlToImage: null,
+      publishedAt: '2024-01-26T18:00:04Z',
+      content:
+        'NOONAN: Nikki Haley Should Go for Broke...Click here to read the full article The post NOONAN: Nikki Haley Should Go for Broke... captured from The Drudge Report column 1, link 1 on 1/26/2024 6:00:04… [+374 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Michael M. Phillips',
+      title:
+        'Tourists Besiege African Wildlife. Can I Reserve You A Cheetah At 4 PM?',
+      description:
+        'The cutest cubs or gnarliest kills can draw dozens of Land Cruisers, prompting a quest for a high-tech solution.',
+      url: 'https://www.wsj.com/lifestyle/travel/africa-safari-tourists-crowding-wildlife-d55b47e5',
+      urlToImage: 'https://images.wsj.net/im-915466/social',
+      publishedAt: '2024-01-26T12:06:47Z',
+      content:
+        'MAASAI MARA, KenyaIts gotten to the point where even the hyenas have noticed that one of the worlds great wildlife refuges is overrun by tourists.\r\nBack in the day, spotted hyenas in the Maasai Mara … [+344 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        'British Businessman Worked in China for Decades. Then He Vanished...',
+      description: null,
+      url: 'https://www.wsj.com/world/china/a-british-businessman-worked-in-china-for-decades-then-he-vanished-1b986108',
+      urlToImage: null,
+      publishedAt: '2024-01-25T19:00:04Z',
+      content:
+        'British Businessman Worked in China for Decades. Then He Vanished...Click here to read the full article The post British Businessman Worked in China for Decades. Then He Vanished... captured from The… [+418 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        'USA Secretly Alerted Iran Ahead of Islamic State Terrorist Attack...',
+      description: null,
+      url: 'https://www.wsj.com/world/middle-east/u-s-secretly-alerted-iran-ahead-of-islamic-state-terrorist-attack-af77a19a',
+      urlToImage: null,
+      publishedAt: '2024-01-25T15:00:07Z',
+      content:
+        'USA Secretly Alerted Iran Ahead of Islamic State Terrorist Attack...Click here to read the full article The post USA Secretly Alerted Iran Ahead of Islamic State Terrorist Attack... captured from The… [+423 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: null,
+      title: 'Tech, Media & Telecom Roundup: Market Talk',
+      description: '',
+      url: 'https://www.wsj.com/business/telecom/tech-media-telecom-roundup-market-talk-1bdc7588',
+      urlToImage: 'https://images.wsj.net/im-801076/social',
+      publishedAt: '2024-01-25T13:07:00Z',
+      content:
+        'The latest Market Talks covering Technology, Media and Telecom. Published exclusively on Dow Jones Newswires at 4:20 ET, 12:20 ET and 16:50 ET.0902 GMT Nokia reported weak 4Q sales which were 9% belo… [+779 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'Golf-Course Tax Break Could Reach $323 Million...',
+      description: null,
+      url: 'https://www.wsj.com/us-news/trumps-golf-course-tax-break-could-reach-323-million-3b696ec7',
+      urlToImage: null,
+      publishedAt: '2024-01-24T23:00:03Z',
+      content:
+        'Golf-Course Tax Break Could Reach $323 Million...Click here to read the full article The post Golf-Course Tax Break Could Reach $323 Million... captured from The Drudge Report column 2, link 5 on 1/2… [+362 chars]'
+    },
     {
       source: {
         id: 'the-wall-street-journal',
@@ -9,283 +226,57 @@ export const mockNewsData = {
       },
       author: 'John Gruber',
       title:
-        'Shohei Ohtani’s $700 Million Contract With the Dodgers Will Pay Him Just $2 Million Per Year',
-      description:
-        'The Japanese star’s record deal with the Dodgers has an unprecedented structure, which will see him defer $68 million per season until the end of his contract',
-      url: 'https://www.wsj.com/sports/baseball/shohei-ohtani-700-million-contract-deferral-067a345f',
-      urlToImage: 'https://images.wsj.net/im-899102/social',
-      publishedAt: '2023-12-13T00:18:26Z',
-      content:
-        'Lindsey Adler and Richard Rubin, reporting for The Wall Street Journal (News+ link):\n\n\n Shohei Ohtani joined a new team this weekend. You probably heard \nabout it. The Japanese superstar on Saturday … [+1983 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: "IDF Begins Pumping Seawater Into Hamas's Gaza Tunnels...",
-      description:
-        'Early effort to flood tunnels is one of several techniques aimed at destroying network that underpins Hamas’s operations',
-      url: 'https://www.wsj.com/world/middle-east/israel-takes-fight-against-hamas-to-vast-tunnel-network-2ed3b3f2',
-      urlToImage: 'https://images.wsj.net/im-899182/social',
-      publishedAt: '2023-12-12T20:00:03Z',
-      content:
-        'WSJ News Exclusive | Israel Begins Pumping Seawater Into Hamas’s Gaza TunnelsIsrael’s military has begun to pump seawater into Hamas’s vast complex of tunnels in Gaza, according to U.S. officials bri… [+931 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'James R. Hagerty',
-      title:
-        'Edgar Woolard, Who Brought Steve Jobs Back to Apple, Dies at Age 89',
-      description:
-        'Former DuPont CEO joined Apple board in 1996, saw a ‘death dive’ and persuaded the co-founder to return',
-      url: 'https://www.wsj.com/business/edgar-woolard-brought-steve-jobs-back-to-apple-dies-e909a3a2',
-      urlToImage: 'https://images.wsj.net/im-899303/social',
-      publishedAt: '2023-12-12T19:59:20Z',
-      content:
-        'When he joined the board of Apple in June 1996, Edgar S. Woolard Jr.was nearing the end of his career at the chemical giant DuPont and might have been expected to offer little more than a bit of frie… [+436 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Alexandra Bruell',
-      title: 'NYTIMES Hires First AI Newsroom Leader...',
-      description:
-        "NYTIMES Hires First AI Newsroom Leader...\r\n\n \n \n \n (Third column, 3rd story, link)\r\n\n \r\n\n \r\n\n \n Related stories:MSNBC Faces 'Morning Woe' After Tech Problems...\r\nSPORTS ILLUSTRATED publisher fires CEO following scandal...\r\n\n \r\n\n \n \n Drudge Report Feed needs y…",
-      url: 'https://www.wsj.com/business/media/new-york-times-hires-first-newsroom-leader-focused-on-artificial-intelligence-facc83f1',
-      urlToImage: 'https://images.wsj.net/im-899210/social',
-      publishedAt: '2023-12-12T18:28:37Z',
-      content:
-        'The New York Times has hired an editorial director of artificial-intelligence initiatives, signaling a significant commitment to the new technology as major news organizations explore its potential c… [+388 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'Gov Sununu Set to Endorse Haley in Presidential Race...',
-      description:
-        'Move is a blow to former Gov. Chris Christie, who has focused his campaign on the state',
-      url: 'https://www.wsj.com/politics/policy/new-hampshire-gov-chris-sununu-set-to-endorse-nikki-haley-in-gop-presidential-race-97545648',
-      urlToImage: 'https://images.wsj.net/im-899278/social',
-      publishedAt: '2023-12-12T16:00:03Z',
-      content:
-        'New Hampshire Gov. Chris Sununu Set to Endorse Nikki Haley in GOP Presidential RaceBy and Dec. 12, 2023 10:30 am ET\r\nNew Hampshire Gov. Chris Sununu is poised to endorse former South Carolina Gov. Ni… [+1603 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: "Ukraine's Biggest Wireless Service Knocked Offline...",
-      description: 'Kyivstar says internet and cellular services are disrupted',
-      url: 'https://www.wsj.com/world/ukraines-biggest-wireless-service-knocked-offline-in-attack-3eca6304',
-      urlToImage: 'https://images.wsj.net/im-899250/social',
-      publishedAt: '2023-12-12T16:00:03Z',
-      content:
-        'Ukraine’s Biggest Wireless Service Knocked Offline in AttackBy and Dec. 12, 2023 10:18 am ET\r\nUkraine’s biggest wireless network operator said attackers knocked its service offline Tuesday, an event … [+840 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Mark Maurer',
-      title: 'EY Is Laying Off U.S. Partners Amid Tough Economic Conditions',
-      description:
-        'The Big Four accounting firm previously cut 3,000 U.S. workers in April, similar to moves at other professional-services firms',
-      url: 'https://www.wsj.com/articles/ey-is-laying-off-u-s-partners-amid-tough-economic-conditions-9efc4aa6',
-      urlToImage: 'https://images.wsj.net/im-899053/social',
-      publishedAt: '2023-12-12T11:58:04Z',
-      content:
-        'Ernst &amp; Young is laying off dozens of partners across all U.S. businesses, a deeper round of partner cuts than usual as the Big Four accounting firm faces slowing demand for certain services and … [+566 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Costas Paris',
-      title:
-        'Commodities Carriers Star Bulk and Eagle Bulk Shipping Agree to $2.1 Billion Merger',
-      description:
-        'The marriage of the New York-listed ocean carriers aims to boost investor interest',
-      url: 'https://www.wsj.com/business/energy-oil/commodities-carriers-star-bulk-and-eagle-bulk-shipping-agree-to-2-1-billion-merger-3a140a07',
-      urlToImage: 'https://images.wsj.net/im-899070/social',
-      publishedAt: '2023-12-12T01:46:00Z',
-      content:
-        'Star Bulk Carriers and Eagle Bulk Shipping said they agreed to merge in an all-stock deal that would create the worlds fourth-biggest commodities carrier and make it more attractive to large investor… [+360 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Doug Cameron, Micah Maidenberg',
-      title: 'Satellite Manufacturer Terran Orbital Seeks a Buyer',
-      description:
-        'Live coverage of stocks and financial news, including the S&P 500, Dow and Nasdaq Composite.',
-      url: 'https://www.wsj.com/livecoverage/stock-market-today-dow-jones-12-11-2023',
-      urlToImage: 'https://images.wsj.net/im-898618/social',
-      publishedAt: '2023-12-11T13:21:45Z',
-      content:
-        'Satellite maker Terran Orbital is looking to sell itself about a year and a half after it went public, according to people involved in the process.\r\nTerran is seeking bids by the end of the month and… [+358 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Dean Seal',
-      title: 'Occidental to Acquire CrownRock in $12 Billion Deal',
-      description: '',
-      url: 'https://www.wsj.com/business/energy-oil/occidental-to-acquire-crownrock-in-12-billion-deal-66caf8d6',
-      urlToImage: 'https://images.wsj.net/im-779396/social',
-      publishedAt: '2023-12-11T12:49:00Z',
-      content:
-        'Occidental Petroleum has signed a $12 billion cash-and-stock deal to acquire the oil and gas producer CrownRock.\r\nHouston-based Occidental said Monday that it will take on $9.1 billion in new debt an… [+351 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title:
-        'Alarm Grows Over Weakened Militaries and Empty Arsenals in Europe...',
-      description:
-        'Budget cuts and an eroded weapons industry have hollowed out armed services; Russia’s invasion of Ukraine reveals risks',
-      url: 'https://www.wsj.com/world/europe/alarm-nato-weak-military-empty-arsenals-europe-a72b23f4',
-      urlToImage: 'https://images.wsj.net/im-898275/social',
-      publishedAt: '2023-12-11T12:00:03Z',
-      content:
-        'Alarm Grows Over Weakened Militaries and Empty Arsenals in EuropeThe British military—the leading U.S. military ally and Europe’s biggest defense spender—has only around 150 deployable tanks and perh… [+1101 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: null,
-      title: 'Energy & Utilities Roundup: Market Talk',
-      description: '',
-      url: 'https://www.wsj.com/business/energy-oil/energy-utilities-roundup-market-talk-130eeae7',
-      urlToImage: 'https://images.wsj.net/im-884087/social',
-      publishedAt: '2023-12-11T11:21:00Z',
-      content:
-        'The latest Market Talks covering Energy and Utilities. Published exclusively on Dow Jones Newswires at 4:20 ET, 12:20 ET and 16:50 ET.0043 GMT Oil futures edge higher in early morning Asian session i… [+675 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Gina Heeb',
-      title: 'How the Fed’s Rate Hikes Broke Home Buying, in Six Charts',
-      description:
-        'What does it take to buy a home in the U.S.? A lot more than it did before the Federal Reserve raised interest rates',
-      url: 'https://www.wsj.com/finance/home-ownership-mortgage-interest-rates-122a272f',
-      urlToImage: 'https://images.wsj.net/im-898083/social',
-      publishedAt: '2023-12-11T11:09:26Z',
-      content:
-        'Homeownership has become a pipe dream for more Americans, even those who could afford to buy just a few years ago.\r\nMany would-be buyers were already feeling stretched thin by home prices that shot q… [+224 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: null,
-      title:
-        'Dollar Could Extend Recovery if Fed Dampens Rate-Cut Expectations',
-      description: '',
-      url: 'https://www.wsj.com/economy/central-banking/asian-currencies-consolidate-may-strengthen-this-week-ab37117c',
+        'The Wall Street Journal on Apple’s Plans for iOS Sideloading in the E.U.',
+      description: null,
+      url: 'https://www.wsj.com/tech/apple-plans-new-fees-and-restrictions-for-downloads-outside-app-store-f464f426Pr',
       urlToImage: null,
-      publishedAt: '2023-12-11T08:36:00Z',
+      publishedAt: '2024-01-24T22:51:28Z',
       content:
-        '0821 GMT The dollar could extend its recent rise if the U.S. Federal Reserve dampens recent growing expectations for rate cuts next year at Wednesdays meeting, says Swissquote analyst Ipek Ozkardeska… [+1304 chars]'
+        'Aaron Tilley, Salvador Rodriguez, Sam Schechner, and Kim Mackrael, reporting for The Wall Street Journal (News+ link):\n\n\n Meta Platforms, Spotify and other companies are preparing new \ndownload optio… [+2586 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Sharon Terlep',
-      title: 'Boeing Has a Frontrunner to Be Its Next CEO',
-      description:
-        'Stephanie Pope to be promoted to operating chief, making her the likely successor to CEO David Calhoun',
-      url: 'https://www.wsj.com/business/airlines/boeing-reveals-the-frontrunner-to-be-its-next-ceo-34123a00',
-      urlToImage: 'https://images.wsj.net/im-898544/social',
-      publishedAt: '2023-12-11T04:29:15Z',
-      content:
-        'Boeing is elevating Stephanie Pope to become its No. 2 executive, setting her up as the heir apparent to Chief Executive David Calhoun as the plane maker prepares for its next leadership transition.\r… [+327 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Isabella Simonetti',
-      title: 'Tucker Carlson Is Launching His Own Streaming Service',
-      description:
-        '‘Tucker Carlson Network’ is expected to go live on Monday and cost $9 a month',
-      url: 'https://www.wsj.com/business/media/tucker-carlson-is-launching-his-own-streaming-service-5fc2f9ba',
-      urlToImage: 'https://images.wsj.net/im-898534/social',
-      publishedAt: '2023-12-11T03:06:08Z',
-      content:
-        'Tucker Carlson is launching his own subscription streaming service, people familiar with the matter said, the former Fox News hosts official foray into paid content after months of posting videos on … [+319 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Gerald F. Seib',
-      title: 'A Look Back at How Awful Politics Was in 2023',
-      description:
-        'The question is whether the troubles were the cause or the result of a divided electorate',
-      url: 'https://www.wsj.com/politics/elections/politics-2023-lookback-70caaf9d',
-      urlToImage: 'https://images.wsj.net/im-896909/social',
-      publishedAt: '2023-12-11T02:36:10Z',
-      content:
-        'Asked to summarize the year 2023 in politics, Republican pollster Whit Ayres is blunt: 2023 was a terrible year for Americas political system.\r\nIndeed, the chronicle of dysfunction and misfires durin… [+400 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Te-Ping Chen, Lindsay Ellis',
-      title: 'The Long Goodbye: Why Laid-Off Employees Are Still on the Job',
-      description:
-        'Forget the cardboard box and security-guard escort. Some employers are giving workers advance notice of their layoffs so they can look for a new job.',
-      url: 'https://www.wsj.com/lifestyle/careers/the-long-goodbye-why-laid-off-employees-are-still-on-the-job-7efc55ab',
-      urlToImage: 'https://images.wsj.net/im-897870/social',
-      publishedAt: '2023-12-11T02:00:00Z',
-      content:
-        'Chris Pinner, a 42-year-old technical writer in Cleveland, knows his last day on the job is Dec. 29. The software company where he works told him so back in April.\r\nAt first, Pinner was puzzled by th… [+324 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: null,
-      title: 'Oil Futures Rise in Possible Position Adjustments',
-      description: '',
-      url: 'https://www.wsj.com/business/energy-oil/oil-futures-rise-in-possible-position-adjustments-ac5ad565',
+      author: 'John Gruber',
+      title:
+        'The Wall Street Journal on Apple’s Plans for iOS Sideloading in the E.U.',
+      description: null,
+      url: 'https://www.wsj.com/tech/apple-plans-new-fees-and-restrictions-for-downloads-outside-app-store-f464f426?mod=hp_lista_pos1',
       urlToImage: null,
-      publishedAt: '2023-12-11T00:46:00Z',
+      publishedAt: '2024-01-24T22:51:28Z',
       content:
-        '0043 GMT Oil futures edge higher in early morning Asian session in possible position adjustments. Some stability has emerged as Russia and Saudi Arabia recently provided verbal support, emphasizing c… [+541 chars]'
+        'Aaron Tilley, Salvador Rodriguez, Sam Schechner, and Kim Mackrael, reporting for The Wall Street Journal (News+ link):\n\n\n Meta Platforms, Spotify and other companies are preparing new \ndownload optio… [+2586 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'John Gruber',
+      title:
+        'The Wall Street Journal on Apple’s Plans for iOS Sideloading in the E.U.',
+      description: null,
+      url: 'https://www.wsj.com/tech/apple-plans-new-fees-and-restrictions-for-downloads-outside-app-store-f464f426',
+      urlToImage: null,
+      publishedAt: '2024-01-24T22:51:28Z',
+      content:
+        'Aaron Tilley, Salvador Rodriguez, Sam Schechner, and Kim Mackrael, reporting for The Wall Street Journal (News+ link):\n\n\n Meta Platforms, Spotify and other companies are preparing new \ndownload optio… [+2294 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: "CORNELL Next? Wealthy Donors Call for President's Ouster...",
+      description: null,
+      url: 'https://www.wsj.com/us-news/education/is-cornell-next-schools-wealthy-donors-call-for-presidents-ouster-13ab9c4d',
+      urlToImage: null,
+      publishedAt: '2024-01-24T21:00:03Z',
+      content:
+        "CORNELL Next? Wealthy Donors Call for President's Ouster...Click here to read the full article The post CORNELL Next? Wealthy Donors Call for President's Ouster... captured from The Drudge Report col… [+403 chars]"
     },
     {
       source: {
@@ -293,89 +284,14 @@ export const mockNewsData = {
         name: 'The Wall Street Journal'
       },
       author: 'Heather Haddon',
-      title: 'How McDonald’s Is Overhauling Its Famous Burgers',
+      title: 'There Are Superfans. Then There Are Fast-Food Superfans.',
       description:
-        'The fast-food giant has spent seven years making over its signature offering amid heated competition for hamburger dominance',
-      url: 'https://www.wsj.com/story/how-mcdonalds-is-overhauling-its-famous-burgers-c57764d6',
-      urlToImage: 'https://images.wsj.net/im-890300/social',
-      publishedAt: '2023-12-10T23:32:05Z',
+        'Diehards are lining up at 4:30 a.m., donning long underwear and sleeping in parking lots to be first at In-N-Out or Chick-fil-A openings',
+      url: 'https://www.wsj.com/business/superfans-in-n-out-openings-chick-fil-a-c2cea331',
+      urlToImage: 'https://images.wsj.net/im-915863/social',
+      publishedAt: '2024-01-24T16:04:28Z',
       content:
-        'With increased competition in the burger marketespecially from higher-end, fast-casual burger chains such as Five Guysexecutives decided to revamp some of the industrial-scale techniques that have pr… [+149 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Lauren Thomas',
-      title: 'Investor Group Launches $5.8 Billion Buyout Bid for Macy’s',
-      description:
-        'Arkhouse Management, Brigade Capital recently submitted proposal to acquire famed retailer for $21 a share',
-      url: 'https://www.wsj.com/business/deals/investor-group-launches-5-8-billion-buyout-bid-for-macys-441ca24a',
-      urlToImage: 'https://images.wsj.net/im-898493/social',
-      publishedAt: '2023-12-10T21:43:00Z',
-      content:
-        'An investor group has made a $5.8 billion offer to buy Macys, in a bid to take the famed department-store chain private after stiff competition from online rivals took a big bite out of its value.\r\nA… [+348 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Sarah Kate Ellis',
-      title: 'The Challenge Facing Companies When Dealing With LGBTQ Issues',
-      description:
-        'Most consumers want brands to support inclusion. But when they do, they face a potentially negative backlash. Just ask Bud Light.',
-      url: 'https://www.wsj.com/business/lgbtq-challenges-business-2024-868cc7d1',
-      urlToImage: 'https://images.wsj.net/im-896323/social',
-      publishedAt: '2023-12-10T18:47:00Z',
-      content:
-        'Reading the headlines in 2023, it may have seemed as if consumer brands lost big when it came to LGBTQ issues. Dozens of companies faced social-media attacksin some cases boycottsover their support f… [+528 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Lauren Thomas',
-      title: 'Cigna Calls Off Humana Pursuit, Plans Big Stock Buyback',
-      description:
-        'Health-insurance providers couldn’t agree on financial terms for deal that would have created $140 billion giant',
-      url: 'https://www.wsj.com/business/deals/cigna-calls-off-humana-pursuit-plans-big-stock-buyback-ae1c6b3c',
-      urlToImage: 'https://images.wsj.net/im-898479/social',
-      publishedAt: '2023-12-10T17:38:00Z',
-      content:
-        'Cigna abandoned its pursuit of a tie-up with Humana that would have created a roughly $140 billion giant in the health-insurance industry.\r\nThe companies couldnt come to agreement on price and other … [+256 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Eliza Collins',
-      title: 'Arizona Is the Next Abortion Battleground',
-      description:
-        'The state Supreme Court is set to hear arguments on whether to allow a near-total ban to take effect—kicking off a 2024 showdown',
-      url: 'https://www.wsj.com/politics/elections/arizona-is-the-next-abortion-battleground-afae13a3',
-      urlToImage: 'https://images.wsj.net/im-898349/social',
-      publishedAt: '2023-12-10T16:32:24Z',
-      content:
-        'PHOENIXArizona is poised to take center stage in state-level battles over abortion this week when its highest court weighs whether to allow a near-total ban on the procedure to take effect.\r\nThe case… [+406 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Richard Vanderford',
-      title: 'SEC Probes Investment Advisers’ Use of AI',
-      description:
-        'The agency’s sweep comes amid repeated expressions of AI skepticism from Chair Gary Gensler',
-      url: 'https://www.wsj.com/articles/sec-probes-investment-advisers-use-of-ai-48485279',
-      urlToImage: 'https://images.wsj.net/im-897802/social',
-      publishedAt: '2023-12-10T14:00:00Z',
-      content:
-        'The Securities and Exchange Commission is asking investment advisers how they use and oversee artificial intelligence, as agency head Gary Gensler continues to express skepticism about the technology… [+536 chars]'
+        'One chilly December morning, Jonathan Fried drove to a parking lot in Meridian, Idaho, found a spot, cranked up the heat, checked his supply of snacks and settled in for a long wait. To pass the time… [+343 chars]'
     },
     {
       source: {
@@ -383,962 +299,395 @@ export const mockNewsData = {
         name: 'The Wall Street Journal'
       },
       author: 'John Keilman',
-      title: 'The Megafactories Are Coming. Will the Workers Show Up?',
-      description:
-        'Semiconductor and EV plants in Central Ohio search for employees amid manufacturing labor shortage; smaller factories brace for tougher competition',
-      url: 'https://www.wsj.com/business/factory-manufacturing-jobs-tough-to-fill-workers-cd4b48da',
-      urlToImage: 'https://images.wsj.net/im-898264/social',
-      publishedAt: '2023-12-10T10:30:00Z',
-      content:
-        'COLUMBUS, OhioEnormous factories are sprouting outside of this capital city. Now comes the hard partfinding people to work in them.\r\nManufacturing jobs are tough to fill around Columbus, which has on… [+351 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Nick Timiraos',
-      title:
-        'Jerome Powell’s Inflation Fight Is Succeeding, Raising Questions About Rate Cuts',
-      description:
-        'After boosting borrowing costs at the fastest pace in four decades, when can the Fed start lowering them?',
-      url: 'https://www.wsj.com/economy/central-banking/federal-reserve-cutting-interest-rates-when-4a910883',
-      urlToImage: 'https://images.wsj.net/im-897448/social',
-      publishedAt: '2023-12-10T10:30:00Z',
-      content:
-        'When Federal Reserve Chair Jerome Powell met on an October afternoon with small-business owners in Pennsylvania, Julie Keene lamented how her family farm and food market had been blindsided by high i… [+325 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Dustin Volz',
-      title:
-        "The U.S. Government's Most Powerful Spying Tool Is Fighting for Its Life",
-      description:
-        'A surveillance program known as Section 702 is expiring soon, and Congress is divided over how—and whether—to renew it',
-      url: 'https://www.wsj.com/politics/national-security/the-u-s-governments-most-powerful-spying-tool-is-fighting-for-its-life-5c2516d5',
-      urlToImage: 'https://images.wsj.net/im-897939/social',
-      publishedAt: '2023-12-09T21:06:56Z',
-      content:
-        'WASHINGTONThe Biden administrations efforts to renew legislation that allows the U.S. to track the electronic communications of terrorists, spies and hackers overseas is facing an uphill battle amid … [+604 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Saabira Chaudhuri',
-      title: 'Chicken Nuggets in Reusable Bowls? McDonald’s Isn’t Lovin’ It',
-      description:
-        'A French law has forced the fast-food giant to serve fries and sodas in washable containers; now it is fighting a wider rollout',
-      url: 'https://www.wsj.com/business/hospitality/chicken-nuggets-in-reusable-bowls-mcdonalds-isnt-lovin-it-96d157a3',
-      urlToImage: 'https://images.wsj.net/im-895968/social',
-      publishedAt: '2023-12-09T18:30:19Z',
-      content:
-        'PARISA McDonalds on a buzzy boulevard here offers a glimpse of what the future of serving fast food could look like. The burger giant doesnt like what it sees.\r\nFor those dining in, french fries are … [+350 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Julie Jargon',
-      title:
-        'Boys Are Struggling. It Can Take Coaches, Tutors and Thousands a Month to Help',
-      description:
-        'Adolescent boys struggle with disorganization and distraction; parents are paying to keep their middle-schoolers from falling behind',
-      url: 'https://www.wsj.com/tech/personal-tech/middle-schoolers-academic-success-innovation-40e8456d',
-      urlToImage: 'https://images.wsj.net/im-896816/social',
-      publishedAt: '2023-12-09T16:36:31Z',
-      content:
-        'Teresa Lubovich says nearly every student coming to her private tutoring center to learn personal organization skills is a boy.\r\nStarting at $500 a month, her services dont come cheap, but she says p… [+220 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Aaron Zitner, Alex Leary',
-      title: 'POLL: Trump Takes Lead as Biden Approval Hits New Low...',
-      description:
-        "POLL: Trump Takes Lead as Biden Approval Hits New Low...\r\n\n \n \n \n (Second column, 4th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Megyn: Trump Has Lost 'Multiple Steps' Mentally...\r\n'What Happens When You're 77!'\r\nRolling over for Don: No more RNC debates...",
-      url: 'https://www.wsj.com/politics/elections/trump-takes-2024-lead-as-biden-approval-hits-new-low-wsj-poll-finds-fb4fca0c',
-      urlToImage: 'https://images.wsj.net/im-898139/social',
-      publishedAt: '2023-12-09T16:10:37Z',
-      content:
-        'WASHINGTONPresident \r\nBidens political standing is at its weakest point of his presidency, a new Wall Street Journal poll finds, with voters giving him his lowest job-performance marks and favoring D… [+550 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Isabella Simonetti, Ben Dummett',
-      title:
-        'Former CNN Boss Zucker Eyes Unlikely Next Role: British Media Mogul...',
-      description:
-        'Former CNN Boss Zucker Eyes Unlikely Next Role: British Media Mogul...\r\n\n \n \n \n (Third column, 2nd story, link)\r\n\n \r\n\n \r\n\n \n \n Drudge Report Feed needs your support!   Become a Patron',
-      url: 'https://www.wsj.com/business/media/jeff-zucker-running-telegraph-uk-ec83a544',
-      urlToImage: 'https://images.wsj.net/im-895938/social',
-      publishedAt: '2023-12-09T15:25:40Z',
-      content:
-        'Jeff Zucker ran NBCs Today show as a young executive producer and was CNNs boss for nearly a decade. Now, the television veteran is angling for a very different assignment: turn conservative British … [+318 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title:
-        "Moving Company Touts Young, Chiseled Workers. Feds Say That's Age Discrimination...",
-      description:
-        'Biden-appointed EEOC commissioners are taking closer look at alleged age bias in the labor market',
-      url: 'https://www.wsj.com/economy/jobs/a-moving-company-touts-its-young-chiseled-workers-feds-say-thats-age-discrimination-c50a773c',
-      urlToImage: 'https://images.wsj.net/im-896680/social',
-      publishedAt: '2023-12-09T15:00:03Z',
-      content:
-        'A Moving Company Touts Its Young, Chiseled Workers. Feds Say That’s Age Discrimination.By Dec. 9, 2023 5:30 am ET\r\nA moving company shows off the clean-cut, chiseled student athletes who pump iron be… [+1049 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Jen Murphy',
-      title: 'Skiing Over 70: How Dedicated Seniors Stay Safe On the Slopes',
-      description:
-        'A dedicated class of old-time skiers keep having fun in the mountains while staying safe—using training tools that could help athletes of all ages',
-      url: 'https://www.wsj.com/lifestyle/fitness/ski-training-fitness-seniors-b5e43cd7',
-      urlToImage: 'https://images.wsj.net/im-898007/social',
-      publishedAt: '2023-12-09T14:57:53Z',
-      content:
-        'Balance, strength and body control decline as we age. Older skiers can counteract the effects with two hard and fast rules: Be willing to train and know your limits on the slopes. \r\nAt 104, Klaus Obe… [+294 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Rhiannon Hoyle',
-      title: 'The Next Chips to Transform EVs Could Be Made From Wood',
-      description:
-        'A New Zealand startup is turning forestry scraps into graphite for use in lithium-ion batteries',
-      url: 'https://www.wsj.com/business/energy-oil/china-ev-materials-scaring-us-77c7f710',
-      urlToImage: 'https://images.wsj.net/im-896249/social',
-      publishedAt: '2023-12-09T14:30:21Z',
-      content:
-        'ADELAIDE, AustraliaIvan Williams reckons he can help to break \r\nChinas dominance of a key ingredient of electric-vehicle batteries. To do so, he has been collecting wood chips from sawmills around th… [+475 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Christopher Mims',
-      title:
-        'Climate Change Is Breaking Insurance. Here’s How Tech Could Save It.',
-      description:
-        'A new breed of insurer is finding opportunity as larger companies exit some markets',
-      url: 'https://www.wsj.com/business/entrepreneurship/climate-change-ai-california-texas-insurance-1d993873',
-      urlToImage: 'https://images.wsj.net/im-897394/social',
-      publishedAt: '2023-12-09T03:22:59Z',
-      content:
-        'If floodwaters outside a warehouse in Freeport, Texas, owned by private investment firm Postlane Partners rise to 8 inches, an internet-connected sensor will trigger an automatic $3 million payment f… [+572 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Robbie Whelan',
-      title:
-        'California Judge Grants Class Certification to Pay-Equity Lawsuit Against Disney',
-      description:
-        'Decision clears way for potential jury trial; entertainment giant says it is disappointed in ruling and is considering its options',
-      url: 'https://www.wsj.com/business/media/california-judge-grants-class-certification-to-pay-equity-lawsuit-against-disney-67cd8282',
-      urlToImage: 'https://images.wsj.net/im-898341/social',
-      publishedAt: '2023-12-09T01:17:00Z',
-      content:
-        'A California judge on Friday granted class certification to an ongoing pay-equity lawsuit against Disney, setting the stage for a jury trial next year over claims that it paid women less than their m… [+785 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: "France's Marine Le Pen to Face Trial Over Spending...",
-      description:
-        'Prosecutors say she paid party officials using funds earmarked for European Parliament assistants, which she denies',
-      url: 'https://www.wsj.com/world/europe/frances-marine-le-pen-to-face-trial-over-spending-e41ced4e',
-      urlToImage: 'https://images.wsj.net/im-898074/social',
-      publishedAt: '2023-12-08T23:00:05Z',
-      content:
-        'France’s Marine Le Pen to Face Trial Over SpendingBy Dec. 8, 2023 3:19 pm ET\r\nPARIS—French judges have ordered far-right figurehead and former presidential candidate Marine Le Pen to stand trial alon… [+890 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'Tyrannosaur Discovered With Last Meal Preserved in Stomach...',
-      description:
-        'First-of-its-kind fossil gives paleontologists unprecedented insight into the diet and dominance of the top carnivore of its time',
-      url: 'https://www.wsj.com/science/tyrannosaur-dinosaur-fossil-preserved-stomach-47d50f18',
-      urlToImage: 'https://images.wsj.net/im-896600/social',
-      publishedAt: '2023-12-08T20:00:03Z',
-      content:
-        'Tyrannosaur Discovered With Last Meal Preserved in Its StomachFor the first time, paleontologists have discovered a fossilized tyrannosaur with its last meal preserved in its stomach—and it turns out… [+917 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Chris Kornelis',
-      title:
-        'Hugh Cullman, Longtime Philip Morris Executive Who Loved and Defended the Tobacco Business, Dies at 100',
-      description:
-        'Raised in a storied tobacco family, Cullman spent years selling Marlboros to the world',
-      url: 'https://www.wsj.com/business/hugh-cullman-dies-philip-morris-executive-tobacco-b16ea724',
-      urlToImage: 'https://images.wsj.net/im-895420/social',
-      publishedAt: '2023-12-08T18:18:00Z',
-      content:
-        'At 10 a.m. on Dec. 3, 1976, Tony Garrett, chairman of Englands Imperial Tobacco, called Hugh Cullman, president of Philip Morris International, to suggest a meeting. With their businesses under attac… [+656 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Melissa Korn',
-      title:
-        'Wharton Board Calls for Leadership Change at Penn Amid Furor Over Campus Antisemitism',
-      description:
-        'Wharton Board Calls for Leadership Change at Penn Amid Furor Over Campus Antisemitismwsj.com',
-      url: 'https://www.wsj.com/us-news/education/wharton-board-calls-for-leadership-change-at-penn-amid-furor-over-campus-antisemitism-307fa95b',
-      urlToImage: 'https://images.wsj.net/im-897804/social',
-      publishedAt: '2023-12-08T17:52:08Z',
-      content:
-        'PHILADELPHIAThe board of the University of Pennsylvanias business school called for new leadership of the university, further ratcheting up pressure on Penns president and governing board as criticis… [+417 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'Luxury Stores Bursting With Unsold Stuff...',
-      description:
-        'As growth slows across the luxury industry, designer labels need discreet places to unload excess inventory',
-      url: 'https://www.wsj.com/business/retail/luxury-outlets-sales-f43f3da0',
-      urlToImage: 'https://images.wsj.net/im-895773/social',
-      publishedAt: '2023-12-08T13:00:03Z',
-      content:
-        'Luxury Stores Are Bursting With Unsold StuffBy Dec. 8, 2023 5:30 am ETFashionistas can smell blood. Luxury brands need to find ways to unload their growing pile of unsold stock without reeking of des… [+1053 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: "In Hollywood, It's Golden Age of the Creepy Woman...",
-      description:
-        'A spate of recent films revel in their depictions of female characters with sinister vibes and dark secrets—and Hollywood’s leading actresses are flocking to take the roles.',
-      url: 'https://www.wsj.com/arts-culture/film/may-december-netflix-natalie-portman-julianne-moore-8f114e08',
-      urlToImage: 'https://images.wsj.net/im-892992/social',
-      publishedAt: '2023-12-08T13:00:03Z',
-      content:
-        'In Hollywood, It’s the Golden Age of the Creepy WomanBy Dec. 7, 2023 9:00 pm ET\r\nTwo scary women doing sinister things that ruin lives. That could describe this fall’s “Exorcist” reboot—which was ind… [+962 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Lauren Thomas',
-      title: 'Honeywell to Buy Carrier Unit for $5 Billion',
-      description:
-        'Business makes products including electronic locks for hotels and hospital chains',
-      url: 'https://www.wsj.com/business/deals/honeywell-to-buy-carrier-unit-for-5-billion-b6d14e27',
-      urlToImage: 'https://images.wsj.net/im-897549/social',
-      publishedAt: '2023-12-08T12:01:00Z',
-      content:
-        'Honeywell International has struck a roughly $5 billion deal to buy Carrier Globals security business, as the industrial giant embarks on a spending spree to bolster its portfolio. \r\nThe security bus… [+522 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Dave Sebastian',
-      title: 'Chinese Gamer-Networking App Nears SPAC Merger in Hong Kong',
-      description:
-        'Quwan Holding’s deal with a special-purpose acquisition company is the second such transaction to be struck in Hong Kong',
-      url: 'https://www.wsj.com/tech/chinese-gamer-networking-app-nears-spac-merger-in-hong-kong-841ca4c3',
-      urlToImage: 'https://images.wsj.net/im-897647/social',
-      publishedAt: '2023-12-08T10:43:44Z',
-      content:
-        'A Chinese social-networking platform aimed at Gen Z users has struck a deal to go public by combining with a blank-check company listed in Hong Kong, valuing the company at around $1 billion.\r\nQuwan … [+338 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Shen Lu',
-      title:
-        'Shein’s Massive IPO Is About to Push Mysterious CEO Sky Xu to Center Stage',
-      description:
-        'The founder of fast-fashion juggernaut Shein has managed to stay out of the spotlight despite his company’s meteoric rise. With an IPO looming, he likely won’t remain under the radar for much longer.',
-      url: 'https://www.wsj.com/business/retail/shein-ipo-ceo-sky-xu-5483911e',
-      urlToImage: 'https://images.wsj.net/im-897591/social',
-      publishedAt: '2023-12-08T04:23:52Z',
-      content:
-        'When employees at fashion giant Shein crowded into an elevator in the companys Guangzhou office at the end of one workday this summer, no one took notice of Sky Xu. \r\nThe quiet man in the corner was … [+290 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Dan Neil',
-      title:
-        '2024 Kia EV9 GT-Line AWD: A Comfortable EV That’s Not Just for Elon Unbelievers',
-      description:
-        'Though the latest Kia EV SUV doesn’t have the range or aerodynamics of the Tesla Model X, Dan Neil says it comes a lot closer than you might think',
-      url: 'https://www.wsj.com/lifestyle/cars/2024-kia-ev9-gt-line-awd-review-a-comfortable-ev-thats-not-just-for-elon-unbelievers-97347a59',
-      urlToImage: 'https://images.wsj.net/im-892979/social',
-      publishedAt: '2023-12-07T22:27:54Z',
-      content:
-        'WHEN IT COMES to electric cars, theres Tesla and everybody else. For car buyers who are fed up with Tesla CEO Elon Musks braying public persona, practically anybody would do. Howzabout Kia? During th… [+616 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: "Wall Street Puts 'Sell' on China Holdings...",
-      description:
-        'Institutional investments in the nation have plunged as its economy slows and property market craters; ‘a bit of an awakening’',
-      url: 'https://www.wsj.com/world/china/china-wall-street-investment-decline-3359f202',
-      urlToImage: 'https://images.wsj.net/im-896760/social',
-      publishedAt: '2023-12-07T21:00:03Z',
-      content:
-        'Wall Street Puts a ‘Sell’ on Its China HoldingsOne of Washington’s biggest China critics traveled to New York in mid-September to meet with some of Wall Street’s best-known financiers. His mission wa… [+792 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'Looting, Crimes Break Out in Gaza...',
-      description:
-        'U.N. warns of a humanitarian catastrophe as increased crime adds to woes of residents',
-      url: 'https://www.wsj.com/world/middle-east/looting-other-crimes-break-out-in-southern-gaza-as-israel-presses-assault-b81496d0',
-      urlToImage: 'https://images.wsj.net/im-897028/social',
-      publishedAt: '2023-12-07T19:00:02Z',
-      content:
-        'Looting, Other Crimes Break Out in Southern Gaza as Israel Presses AssaultPublic order is breaking down in the Gaza Strip as Hamas loses control of the enclave amid Israel’s broadening military offen… [+1007 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Robert McMillan, Dustin Volz',
-      title:
-        "Actors Recorded Videos for 'Vladimir.' It Turned Into Russian Propaganda...",
-      description:
-        "Actors Recorded Videos for 'Vladimir.' It Turned Into Russian Propaganda...\r\n\n \n \n \n (Second column, 17th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Senate fails to advance Ukraine, Israel aid bill; Republicans demand immigration limits...\r\nBIDEN: Do not let P…",
-      url: 'https://www.wsj.com/tech/actors-recorded-videos-for-vladimir-it-turned-into-russian-propaganda-7ff2ce8e',
-      urlToImage: 'https://images.wsj.net/im-897009/social',
-      publishedAt: '2023-12-07T12:58:37Z',
-      content:
-        'Internet propagandists aligned with Russia have duped at least seven Western celebrities, including Elijah Wood and Priscilla Presley, into recording short videos to support \r\nits online information … [+542 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Gabriel T. Rubin',
-      title:
-        'State Where Unemployment Rising Fastest Having Trouble Filling Jobs...',
-      description:
-        'New Jersey joblessness is climbing as employers cut white-collar jobs but can’t find enough nurses, drivers and others with certain skills',
-      url: 'https://www.wsj.com/economy/jobs/the-state-where-unemployment-is-rising-the-fastest-is-having-trouble-filling-jobs-f645cbf7',
-      urlToImage: 'https://images.wsj.net/im-896645/social',
-      publishedAt: '2023-12-07T12:58:37Z',
-      content:
-        'NEW BRUNSWICK, N.J.New Jerseys unemployment rate is rising faster than any other states as more people are seeking work, but not enough are able and willing to fill the jobs available.\r\nSome of the s… [+320 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Gunjan Banerji',
-      title: 'Bond Yields Tumble, Stocks Retreat',
-      description: 'U.S. indexes turn lower to close Wednesday’s session',
-      url: 'https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-12-06-2023-f28aebd3',
-      urlToImage: 'https://images.wsj.net/im-896741/social',
-      publishedAt: '2023-12-06T23:09:02Z',
-      content:
-        'A rally in Treasurys intensified Wednesday, dragging yields on 10-year notes to the lowest level since August, while stocks turned lower. \r\nMajor indexes wavered between small gains and losses before… [+284 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title:
-        "UPDATE: MCDONALD's Launching Alien-Inspired Beverage Restaurant...",
-      description:
-        'Beverage-focused, multiple drive-through concept aims to compete with Starbucks, other takeaway drinks chains',
-      url: 'https://www.wsj.com/business/hospitality/searching-for-cosmcs-investors-consumers-look-for-details-on-new-mcdonalds-brand-88969399',
-      urlToImage: 'https://images.wsj.net/im-896114/social',
-      publishedAt: '2023-12-06T23:00:05Z',
-      content:
-        'McDonald’s to Launch CosMc’s, an Alien-Inspired Restaurant Serving Slushes To-GoBy Updated Dec. 6, 2023 5:00 pm ET\r\nIced coffee, all-day Egg McMuffins and a space alien. McDonald’s is counting on tha… [+792 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Chip Cutter',
-      title: 'McKinsey Shrinks New Partner Class by Roughly 35%',
-      description:
-        'Consulting giant recently told employees that about 250 people would become partners, down from around 380 a year ago',
-      url: 'https://www.wsj.com/business/mckinsey-cuts-new-partner-class-by-roughly-35-8ed19c78',
-      urlToImage: 'https://images.wsj.net/im-896514/social',
-      publishedAt: '2023-12-06T21:40:28Z',
-      content:
-        'It got a lot harder to make it to the top of McKinsey &amp; Co.\r\nThe closely held firm named its new class of partners, and the group is roughly a third smaller than last year, according to people fa… [+214 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Asa Fitch',
-      title: 'AMD Rolls Out New Chips, Aiming for Nvidia’s AI Crown',
-      description:
-        'Advanced Micro Devices is challenging Nvidia’s dominance in artificial-intelligence computing',
-      url: 'https://www.wsj.com/tech/ai/amd-artificial-intelligence-chips-f89e43c5',
-      urlToImage: 'https://images.wsj.net/im-896526/social',
-      publishedAt: '2023-12-06T20:34:00Z',
-      content:
-        'Advanced Micro Devices is starting to roll out its newest chips for artificial intelligence, the company said on Wednesday, presenting Nvidia with perhaps its toughest challenge yet in the race to su… [+438 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Rory Jones',
-      title: "Israel: Killed Half of Hamas's Battalion Commanders...",
-      description:
-        "Israel: Killed Half of Hamas's Battalion Commanders...\r\n\n \n \n \n (First column, 14th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Both male and female hostages sexually assaulted in captivity...\r\nIDF floods tunnels...\r\nIsrael raises threat level against travel to…",
-      url: 'https://www.wsj.com/world/middle-east/israel-says-it-has-killed-half-of-hamass-battalion-commanders-34a1c058',
-      urlToImage: 'https://images.wsj.net/im-896263/social',
-      publishedAt: '2023-12-06T19:52:37Z',
-      content:
-        'The Israeli military has killed about half of Hamass midlevel commanders in Gaza, Israeli officials said, as its troops pressed forward Wednesday into the \r\nsuspected hiding place of the groups leade… [+381 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Jan Wolfe',
-      title:
-        'Fake Pro-Trump Electors in Wisconsin Admit Effort to ‘Improperly Overturn’ 2020 Vote',
-      description:
-        'Settlement is first by unauthorized electors to formally withdraw filings sent to Congress purporting that Trump won',
-      url: 'https://www.wsj.com/us-news/law/fake-pro-trump-electors-in-wisconsin-admit-effort-to-improperly-overturn-2020-vote-25839271',
-      urlToImage: 'https://images.wsj.net/im-896559/social',
-      publishedAt: '2023-12-06T19:44:03Z',
-      content:
-        'As part of an unusual legal settlement, a group of 10 Wisconsin Republicans who tried to reverse the outcome of the 2020 presidential election by creating a false slate of electors pledged to \r\nDonal… [+678 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Sadie Gurman, Aruna Viswanatha',
-      title: 'USA Charges Four Russians With War Crimes...',
-      description:
-        'USA Charges Four Russians With War Crimes...\r\n\n \n \n \n (Second column, 11th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Putin arrives in Abu Dhabi for oil talks on rare foreign trip...\r\nZelensky turning Ukraine into authoritarian state, says Kyiv mayor...',
-      url: 'https://www.wsj.com/world/europe/u-s-charges-four-russians-with-war-crimes-in-ukraine-2468d1f7',
-      urlToImage: 'https://images.wsj.net/im-896359/social',
-      publishedAt: '2023-12-06T15:49:37Z',
-      content:
-        'WASHINGTONU.S. prosecutors accused four Russian military personnel of abducting and torturing an American in Ukraine, the first war crimes the U.S. has formally charged in connection with \r\nRussias i… [+374 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Sumathi Reddy',
-      title: 'Covid-19 Cases Are Rising Again, Just in Time for the Holidays',
-      description:
-        'Rising levels of the virus and a new variant, JN.1, are leading to some concern from scientists and doctors',
-      url: 'https://www.wsj.com/health/wellness/covid-cases-rise-winter-2023-21e9da23',
-      urlToImage: 'https://images.wsj.net/im-895307/social',
-      publishedAt: '2023-12-06T15:43:28Z',
-      content:
-        'In what is becoming a holiday-season tradition, Covid-19 cases are rising once again in the U.S., according to the Centers for Disease Control and Prevention.\r\nDoctors and virus trackers expect cases… [+296 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'Bitcoin Mining Using More Water Than NYC...',
-      description:
-        'New estimates find billions of gallons needed to support cryptocurrency, fueling concerns about the environmental impact',
-      url: 'https://www.wsj.com/science/environment/bitcoin-water-cryptocurrency-transactions-mining-607f46e9',
-      urlToImage: 'https://images.wsj.net/im-893015/social',
-      publishedAt: '2023-12-06T14:00:03Z',
-      content:
-        'Bitcoin Mining Used More Water Than New York City Last YearBy Dec. 6, 2023 8:00 am ETA water hog is lurking in your crypto wallet.  Bitcoin-mining operations slurp up billions of gallons of water glo… [+791 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Katherine Blunt, Jeff Horwitz',
-      title:
-        'FACEBOOK, INSTAGRAM Steer Predators to Children, Alleges Lawsuit...',
-      description:
-        'State investigators’ test accounts with AI-generated photos were deluged with sexual propositions and adult sex content, suit claims; Meta says it works hard to protect young users',
-      url: 'https://www.wsj.com/tech/facebook-and-instagram-steer-predators-to-children-new-mexico-attorney-general-alleges-in-lawsuit-b76a5b04',
-      urlToImage: 'https://images.wsj.net/im-895971/social',
-      publishedAt: '2023-12-06T12:55:37Z',
-      content:
-        'Facebook and Instagram recommend sexual content to underage users and promote minors accounts to apparent child predators, the state of New Mexico alleges in a lawsuit against parent company Meta Pla… [+683 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Joseph Hoppe',
-      title:
-        'British American Tobacco Sees GBP25 Billion Impairment on U.S. Brands Pressure',
-      description: '',
-      url: 'https://www.wsj.com/business/earnings/british-american-tobacco-sees-gbp25-bln-impairment-but-backs-guidance-28d3d7cf',
-      urlToImage: 'https://images.wsj.net/im-682236/social',
-      publishedAt: '2023-12-06T07:58:00Z',
-      content:
-        'British American Tobacco said it expects a one-off impairment of around 25 billion pounds ($31.49 billion) this year due to market pressure on some of its combustibles brands in the U.S. as it tries … [+470 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'Cuban Intel Recruits Driven by Ideology, Not Money...',
-      description:
-        'Espionage case of former U.S. ambassador sheds light on officials-turned-spies swayed by sympathy for Cuba’s revolution',
-      url: 'https://www.wsj.com/politics/national-security/cuban-intelligence-recruits-driven-by-ideology-not-money-7d56c3f8',
-      urlToImage: 'https://images.wsj.net/im-896016/social',
-      publishedAt: '2023-12-05T23:00:03Z',
-      content:
-        'Cuban Intelligence Recruits Driven by Ideology, Not MoneyBy and Dec. 5, 2023 5:39 pm ET\r\nThe Cuban espionage case involving former U.S. Ambassador Victor Manuel Rocha might turn out to be the most eg… [+962 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: "NCAA's Radical Proposal to Pay College Athletes...",
-      description:
-        'Amid pressure to modernize, NCAA President Charlie Baker outlines a new model where Division I schools could pay athletes through endorsements and educational trusts',
-      url: 'https://www.wsj.com/sports/ncaa-proposal-pay-division-i-athletes-cb7c69db',
-      urlToImage: 'https://images.wsj.net/im-895840/social',
-      publishedAt: '2023-12-05T21:00:03Z',
-      content:
-        'The NCAA’s Radical Proposal to Pay Division I AthletesBy Dec. 5, 2023 3:03 pm ETIn a groundbreaking move that would transform how college athletics has operated for more than a century, National Coll… [+1024 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'UPDATE: Supreme Court Wary of Remaking Income Tax...',
-      description:
-        'Justices hearing arguments over whether unrealized income could be taxed appear to shy away from broad ruling',
-      url: 'https://www.wsj.com/us-news/law/supreme-court-hears-biggest-tax-case-in-decades-8559be49',
-      urlToImage: 'https://images.wsj.net/im-895345/social',
-      publishedAt: '2023-12-05T21:00:03Z',
-      content:
-        'Supreme Court Wary of Remaking Income TaxBy and Updated Dec. 5, 2023 3:01 pm ET\r\nWASHINGTON—The Supreme Court looked unlikely to impose strict new limits on Congress’s power to tax income, with some … [+1018 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Jon Sindreu',
-      title: 'How Long Can the ‘Magnificent Seven’ Stocks Hold the Line?',
-      description:
-        'With portfolios concentrated in a handful of expensive stocks, a few company-specific outcomes could have seismic consequences',
-      url: 'https://www.wsj.com/finance/stocks/how-long-can-the-magnificent-seven-stocks-hold-the-line-0e9b5485',
-      urlToImage: 'https://images.wsj.net/im-895493/social',
-      publishedAt: '2023-12-05T20:21:57Z',
-      content:
-        'As in the eponymous 1960s Western, the so-called Magnificent Seven stocks keep on winning. This also means investors are betting the farm on just a handful of bullets hitting their targets.\r\nThe S&am… [+666 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Dave Michaels',
-      title: 'FTC Investigates Exxon’s $60 Billion Deal for Pioneer',
-      description:
-        'Regulator asks the oil producers for more information about proposed merger',
-      url: 'https://www.wsj.com/business/energy-oil/ftc-investigating-exxons-60-billion-deal-for-pioneer-e79c9d75',
-      urlToImage: 'https://images.wsj.net/im-895822/social',
-      publishedAt: '2023-12-05T18:02:16Z',
-      content:
-        'U.S. antitrust enforcers are investigating Exxon Mobils plan to acquire Pioneer Natural Resources, which would be the largest oil-and-gas deal in two decades, according to securities filings. \r\nThe F… [+435 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Drew FitzGerald',
-      title:
-        'AT&T’s Ericsson Supply Deal Isn’t ‘Secret Sauce’ for Easing Costs, CEO Says',
+      title: 'DuPont Stock Plummets on Shaky Outlook',
       description:
         'Live coverage of stocks and financial news, including the S&P 500, Dow and Nasdaq Composite.',
-      url: 'https://www.wsj.com/livecoverage/stock-market-today-dow-jones-12-05-2023',
+      url: 'https://www.wsj.com/livecoverage/stock-market-today-dow-jones-earnings-01-24-2024',
       urlToImage: 'https://images.wsj.net/im-785590/social',
-      publishedAt: '2023-12-05T16:30:00Z',
+      publishedAt: '2024-01-24T14:32:00Z',
       content:
-        'AT&amp;T\'s new $14 billion supply deal with Ericsson could save money but won\'t give the cellphone carrier a "secret sauce" for thinning out expenses, its CEO said Tuesday.\r\nSpeaking to a UBS investo… [+375 chars]'
+        'DuPonts shares tumbled in morning trading after the chemical maker issued an earnings outlook that was well below Wall Street expectations.\r\nThe company said it expected first-quarter net sales of $2… [+463 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'wsj',
-      title: 'Angelina Jolie Rebuilding Her Life...Leaving Unhealthy LA...',
-      description:
-        'After years of healing, the actress is starting a new fashion venture and paring back her Hollywood presence: ‘I wouldn’t be an actress today’',
-      url: 'https://www.wsj.com/arts-culture/film/angelina-jolie-atelier-maria-callas-cf62ff38',
-      urlToImage: 'https://images.wsj.net/im-892161/social',
-      publishedAt: '2023-12-05T16:00:02Z',
-      content:
-        'Angelina Jolie Is Rebuilding Her LifeANGELINA JOLIE has found her voice. But first, she says, she lost it. It was during hours of training to portray the opera singer Maria Callas in her turbulent fi… [+700 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Mellody Hobson',
-      title:
-        'What the Stock Market Taught Us This Year: Don’t Fall for These Investing Traps',
-      description:
-        '2023 has been a year in which investors have been more influenced by perception than reality. And that means opportunities in 2024.',
-      url: 'https://www.wsj.com/finance/investing/stock-market-2023-lessons-investing-2cedd44f',
-      urlToImage: 'https://images.wsj.net/im-894827/social',
-      publishedAt: '2023-12-05T15:47:09Z',
-      content:
-        'The uncertainty around near-term interest rates has dominated the story of the stock market in 2023. Perhaps not since the 1970swhen runaway inflation and sky-high interest rates were the crisis du j… [+683 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Jacky Wong',
-      title: 'The Rise of Temu’s Chinese Parent Will Reshape E-Commerce',
-      description:
-        'PDD, the owner of fast-growing Temu, is muscling into the U.S. in a way Alibaba never did',
-      url: 'https://www.wsj.com/business/retail/the-rise-of-temus-chinese-parent-will-reshape-e-commerce-439c7c1b',
-      urlToImage: 'https://images.wsj.net/im-895666/social',
-      publishedAt: '2023-12-05T05:06:00Z',
-      content:
-        'Move over, Alibaba. Theres a new online-shopping champion in China: PDD, the company behind \r\ndiscount-retailing app Temu, is now the countrys most valuable e-commerce company.After a 78% rise this y… [+591 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Belle Lin',
-      title: 'Meta and IBM Launch AI Alliance',
-      description:
-        'One year after the debut of ChatGPT, companies including AMD and ServiceNow are teaming up with academia to promote ‘open’ alternatives to OpenAI',
-      url: 'https://www.wsj.com/articles/meta-and-ibm-launch-ai-alliance-300c4862',
-      urlToImage: 'https://images.wsj.net/im-895513/social',
-      publishedAt: '2023-12-05T05:01:00Z',
-      content:
-        'Meta Platforms and International Business Machines\r\n launched a coalition of more than 50 artificial intelligence companies and research institutions that are pushing a so-called open model of AI, ho… [+547 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Anna Wilde Mathews',
-      title: 'CVS Plans to Overhaul How Much Drugs Cost',
-      description:
-        'The nation’s biggest drugstore chain to get paid based on the amount it pays for drugs, plus small markup and fee',
-      url: 'https://www.wsj.com/health/healthcare/prescription-drug-costs-cvs-pharmacy-56acb623',
-      urlToImage: 'https://images.wsj.net/im-895439/social',
-      publishedAt: '2023-12-05T05:01:00Z',
-      content:
-        'CVS Health, the nations largest drugstore chain, will move away from the \r\ncomplex formulas used to set the prices of the prescription drugs it sells, shifting to a simpler model that could upend how… [+555 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'James Mackintosh',
-      title: 'Green Investors Were Crushed. Now It’s Time to Make Money.',
-      description:
-        'The lessons have been hard, but should remind investors in the sector of some of the basic facts of investing',
-      url: 'https://www.wsj.com/finance/investing/green-investors-were-crushed-now-its-time-to-make-money-0e0ba9c4',
-      urlToImage: 'https://images.wsj.net/im-895432/social',
-      publishedAt: '2023-12-05T04:00:00Z',
-      content:
-        'Invest according to your political views, and youre unlikely to make money. Companies that appeal to left-wingers or to right-wingers might be good or bad investments, but the fact of being, on curre… [+486 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'Israel Engages Gaza in Some of Fiercest Fighting of War...',
-      description:
-        'Israeli military strikes targets across enclave and expands ground attacks to the south',
-      url: 'https://www.wsj.com/world/middle-east/israel-hamas-engage-in-some-of-fiercest-fighting-of-war-30edb859',
-      urlToImage: 'https://images.wsj.net/im-895235/social',
-      publishedAt: '2023-12-04T23:00:03Z',
-      content:
-        'Israel, Hamas Engage in Some of Fiercest Fighting of WarTEL AVIV—Israeli troops and Hamas fighters are locked in some of their fiercest fighting of the two-month-old war, including at close quarters,… [+908 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title:
-        "He Plays NFL's Least Valued Position. He's Never Been More Valuable...",
-      description:
-        'San Francisco 49ers running back Christian McCaffrey is defying modern thinking—and explains why his team is the favorite to win the Super Bowl.',
-      url: 'https://www.wsj.com/sports/football/christian-mccaffrey-san-francisco-49ers-nfl-running-backs-45ac3696',
-      urlToImage: 'https://images.wsj.net/im-895178/social',
-      publishedAt: '2023-12-04T22:00:05Z',
-      content:
-        'He Plays the NFL’s Least Valued Position. He’s Never Been More Valuable. By Dec. 4, 2023 9:45 am ETBy every shred of modern football thinking, San Francisco 49ers running back Christian McCaffrey sho… [+918 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Lane Florsheim',
-      title: 'Taylor Swift Sells Out Stadiums, Movie Theaters—and Clothes',
-      description:
-        'The musician’s star power has been a boon to fashion brands: ‘I woke up the next day and it was like, articles, followers, sales, sales, sales’',
-      url: 'https://www.wsj.com/style/fashion/taylor-swift-sells-out-clothes-brands-2dfb3652',
-      urlToImage: 'https://images.wsj.net/im-892957/social',
-      publishedAt: '2023-12-04T16:49:49Z',
-      content:
-        'In August, Nell Diamond, who runs the fashion and lifestyle brand Hill House Home, was in Montana on bridesmaid duty, getting ready for her best friends wedding reception. Peeking at her phone betwee… [+552 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Alistair MacDonald',
-      title:
-        'Ukrainian Sniper Breaks Cover to Claim World-Record Hit of More Than 2 Miles...',
-      description:
-        "Ukrainian Sniper Breaks Cover to Claim World-Record Hit of More Than 2 Miles...\r\n\n \n \n \n (Second column, 12th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:As counteroffensive fizzles, Kyiv battles shift of world's attention...\r\nWhite House warns it is 'out of mo…",
-      url: 'https://www.wsj.com/world/europe/ukrainian-sniper-breaks-cover-to-claim-world-record-hit-of-more-than-2-miles-2b1c820e',
-      urlToImage: 'https://images.wsj.net/im-895225/social',
-      publishedAt: '2023-12-04T15:01:38Z',
-      content:
-        'KYIVThe Ukrainian sniper had lain still for hours in near freezing temperatures when the command came to take the shot at a Russian soldier almost 2½ miles away. You can, his spotter said, and Vyache… [+422 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Alex Frangos',
-      title: 'Hawaiian Airlines Stock Price Triples on Alaska Deal',
-      description: 'Gold hovers near record-high levels',
-      url: 'https://www.wsj.com/livecoverage/stock-market-today-dow-jones-12-04-2023',
-      urlToImage: 'https://images.wsj.net/im-895242/social',
-      publishedAt: '2023-12-04T12:15:36Z',
-      content:
-        'Talk about skyrocketing airline prices.\r\nAlaska Air agreed to pay roughly $1 billion for Hawaiian Airlines, quadruple the $250 million that the Honolulu-based carrier was worth on the stock market on… [+282 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'David Sachs',
-      title:
-        'Roche to Buy Carmot Therapeutics for Up to $3.1 Billion in Bet on Obesity Treatments',
-      description: '',
-      url: 'https://www.wsj.com/tech/biotech/roche-strikes-deal-to-buy-drug-developer-carmot-therapeutics-for-2-7-bln-83ec683a',
-      urlToImage: 'https://images.wsj.net/im-895199/social',
-      publishedAt: '2023-12-04T11:10:00Z',
-      content:
-        'Roche Holding said it would buy California-based biotechnology company Carmot Therapeutics for up to $3.1 billion, tapping assets it says have the potential to treat obesity in patients with and with… [+320 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Rebecca Feng',
-      title: 'China Evergrande Avoids a Debt Disaster—for Now',
-      description:
-        'The company was given until late January 2024 to reach a debt restructuring deal',
-      url: 'https://www.wsj.com/finance/china-evergrande-avoids-a-debt-disasterfor-now-9f9e7fad',
-      urlToImage: 'https://images.wsj.net/im-895177/social',
-      publishedAt: '2023-12-04T10:13:00Z',
-      content:
-        'China Evergrande Group, the giant property developer whose default two years ago fueled a crisis in the countrys real-estate market, got some unexpected good news on Monday.\r\nThe company, once Chinas… [+307 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: null,
-      title: 'Brent Crude Seen at Average of $85 a Barrel Next Year',
-      description: '',
-      url: 'https://www.wsj.com/finance/commodities-futures/oil-futures-rise-in-likely-technical-rebound-c3922cab',
+      author: 'www.wsj.com',
+      title: 'Why Women Are Walking Around Without Pants This Winter...',
+      description: null,
+      url: 'https://www.wsj.com/style/fashion/no-pants-trend-e5e873ce',
       urlToImage: null,
-      publishedAt: '2023-12-04T09:34:00Z',
+      publishedAt: '2024-01-24T14:00:03Z',
       content:
-        '0924 GMT Brent crude is forecast to rise to an annual average of $85 a barrel in 2024, according to BMI analysts. Next year will be a tale of two halves: in 1H, a sharp slowdown in developed market e… [+1137 chars]'
+        'Why Women Are Walking Around Without Pants This Winter...Click here to read the full article The post Why Women Are Walking Around Without Pants This Winter... captured from The Drudge Report column … [+346 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: null,
-      title: 'Gold Tempers After Soaring in Asian Trading Hours',
-      description: '',
-      url: 'https://www.wsj.com/economy/central-banking/gold-climbs-amid-lower-treasury-yields-weaker-usd-33eab8df',
+      author: 'www.wsj.com',
+      title: 'Polyamory: Lots of Sex, Even More Scheduling...',
+      description: null,
+      url: 'https://www.wsj.com/lifestyle/relationships/consensual-non-monogamy-ethical-polyamory-85350ebb',
       urlToImage: null,
-      publishedAt: '2023-12-04T08:29:00Z',
+      publishedAt: '2024-01-23T13:00:03Z',
       content:
-        '0833 GMT Gold prices soften, having spiked during the Asian trading hours after hitting a new record high on Friday. New York continuous futures prices are 0.4% lower at $2,081.70 a troy ounce after … [+1074 chars]'
+        'Polyamory: Lots of Sex, Even More Scheduling...Click here to read the full article The post Polyamory: Lots of Sex, Even More Scheduling... captured from The Drudge Report column 1, link 19 on 1/23/2… [+363 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'John McCormick, Alex Leary, Kimberly S. Johnson',
+      author: 'www.wsj.com',
       title:
-        'DeSantis Predicts Iowa Win as Political Operation Backing Him Fractures...',
+        "He Asked to Bet $500,000 on Fight. It Turned Out He Was the Boxer's Manager...",
       description:
-        "DeSantis Predicts Iowa Win as Political Operation Backing Him Fractures...\r\n\n \n \n \n (First column, 12th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Haley's path to Republican nomination...",
-      url: 'https://www.wsj.com/politics/elections/desantis-predicts-iowa-win-as-political-operation-backing-campaign-fractures-8a2f01f3',
-      urlToImage: 'https://images.wsj.net/im-895052/social',
-      publishedAt: '2023-12-04T04:10:37Z',
+        'When a man carrying a bag stuffed with cash placed a wager on an obscure boxing match between two fighters almost nobody had ever heard of, it set off alarm bells at a Florida casino',
+      url: 'https://www.wsj.com/sports/boxing-tellez-navarro-jake-paul-undercard-gambling-6db27d27',
+      urlToImage: 'https://images.wsj.net/im-903048/social',
+      publishedAt: '2024-01-23T13:00:03Z',
       content:
-        'NEWTON, Iowa\r\nRon DeSantis declined in an interview broadcast Sunday to say whether he would step aside if he fails to secure a win or second-place showing in the Jan. 15 Iowa caucuses, as he tries t… [+1996 chars]'
+        "He Asked to Bet $500,000 on Fight. It Turned Out He Was the Boxer's Manager...Click here to read the full article The post He Asked to Bet $500,000 on Fight. It Turned Out He Was the Boxer's Manager.… [+417 chars]"
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Alison Sider',
-      title: 'Alaska Air Reaches Deal to Buy Hawaiian Airlines',
+      author: 'Collin Eaton',
+      title: 'Exxon Sues Two ESG Investors',
       description:
-        'Alaska Air will pay roughly $1 billion in cash to acquire a rival in the Pacific region',
-      url: 'https://www.wsj.com/business/airlines/alaska-air-nears-deal-to-buy-hawaiian-airlines-07ce881b',
-      urlToImage: 'https://images.wsj.net/im-895072/social',
-      publishedAt: '2023-12-03T20:04:10Z',
+        'The oil giant says Arjuna Capital and Follow This want Exxon’s oil-and-gas business to shrink, putting them at odds with shareholders',
+      url: 'https://www.wsj.com/business/energy-oil/exxon-sues-two-esg-investors-2057e696',
+      urlToImage: 'https://images.wsj.net/im-915030/social',
+      publishedAt: '2024-01-21T23:17:23Z',
       content:
-        'Alaska Air reached a roughly $1 billion deal to buy Hawaiian Airlines, a combination of two nearly century-old rivals that are dwarfed by the biggest players in a time of travel upheaval.\r\nThe propos… [+422 chars]'
+        'Exxon Mobil is suing two sustainable investment firms in a bid to block them from putting forward a shareholder proposal that would commit the oil company to further curb its greenhouse-gas emissions… [+374 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Hardika Singh',
-      title: 'The Stocks Investors Are Putting Under the Tree',
-      description:
-        'Shares of retailers including Victoria’s Secret and Foot Locker are surging despite mixed holiday updates',
-      url: 'https://www.wsj.com/finance/stocks/the-stocks-investors-are-putting-under-the-tree-a5678f4d',
-      urlToImage: 'https://images.wsj.net/im-894809/social',
-      publishedAt: '2023-12-03T15:00:00Z',
+      author: 'www.wsj.com',
+      title: 'WSJ: Legal Woes Splinter Republican Unity...',
+      description: null,
+      url: 'https://www.wsj.com/politics/elections/trumps-legal-woes-splinter-gop-unity-1fd67987?mod=latest_headlines',
+      urlToImage: null,
+      publishedAt: '2024-01-21T19:00:03Z',
       content:
-        'Retailers are making modest predictions about the holiday shopping seasonand their stocks are going gangbusters in response.\r\nVictorias Secret, Foot Locker, Ulta Beauty and Dollar Tree are among the … [+233 chars]'
+        'WSJ: Legal Woes Splinter Republican Unity...Click here to read the full article The post WSJ: Legal Woes Splinter Republican Unity... captured from The Drudge Report above the fold, link 6 on 1/21/20… [+378 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Alexander Osipovich',
+      author: 'www.wsj.com',
+      title: 'Tired of Chicken Yet? Restaurants Bet Answer Is No...',
+      description: null,
+      url: 'https://www.wsj.com/business/hospitality/tired-of-chicken-yet-the-restaurant-industry-bets-the-answer-is-no-1d54c86f',
+      urlToImage: null,
+      publishedAt: '2024-01-21T13:00:03Z',
+      content:
+        'Tired of Chicken Yet? Restaurants Bet Answer Is No...Click here to read the full article The post Tired of Chicken Yet? Restaurants Bet Answer Is No... captured from The Drudge Report column 2, link … [+395 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Inti Pacheco',
       title:
-        'Hundreds of Stocks Have Fallen Below $1. They’re Still Listed on Nasdaq.',
+        'One City and Three Retailers Tried to Fight Shoplifting. The Stores Closed Anyway.',
       description:
-        'Investor-protection advocates say many belong to risky small companies that should be on the OTC market',
-      url: 'https://www.wsj.com/finance/stocks/hundreds-of-stocks-have-fallen-below-1-theyre-still-listed-on-nasdaq-c8e36abf',
-      urlToImage: 'https://images.wsj.net/im-894695/social',
-      publishedAt: '2023-12-03T13:30:00Z',
+        'Portland, Ore., officials and retail executives spent months debating how to tamp down thefts and address quality-of-life issues',
+      url: 'https://www.wsj.com/business/retail/portland-oregon-retailers-rei-nike-target-fd4dd063',
+      urlToImage: 'https://images.wsj.net/im-900055/social',
+      publishedAt: '2024-01-21T02:00:00Z',
       content:
-        'Hundreds of stocks have broken the buck this year, following a slump in the once-hot market for \r\nbuzzy startups seeking rapid growth.As of Friday, 557 stocks listed on U.S. exchanges were trading be… [+365 chars]'
+        'Target, Nike, and REI all complained about crime in Portland privately before announcing plans to close stores in the city in 2023.\r\nThe closures followed monthsand in some cases yearsof negotiations… [+443 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Mark Hulbert',
-      title: 'Momentum Investing Has Struggled for 20 Years. Here’s Why.',
-      description:
-        'A mutual-funds rating company changed its methodology two decades ago, and that apparently has made all the difference',
-      url: 'https://www.wsj.com/finance/investing/momentum-investing-mutual-funds-b855c681',
-      urlToImage: 'https://images.wsj.net/im-893472/social',
-      publishedAt: '2023-12-03T13:30:00Z',
+      author: 'www.wsj.com',
+      title: "Stefanik's Fierce Support Puts Her in VP Conversation...",
+      description: null,
+      url: 'https://www.wsj.com/politics/elections/stefaniks-fierce-support-for-trump-puts-her-in-the-vp-conversation-ab15176b',
+      urlToImage: null,
+      publishedAt: '2024-01-20T15:00:03Z',
       content:
-        'New research suggests a surprising reason why momentum-stock investing strategies have struggled over the past two decades: a seemingly innocuous change in the methodology of Morningstars mutual-fund… [+315 chars]'
+        "Stefanik's Fierce Support Puts Her in VP Conversation...Click here to read the full article The post Stefanik's Fierce Support Puts Her in VP Conversation... captured from The Drudge Report column 1,… [+399 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: "Haley's Last Hope Rests With Independent Voters?",
+      description: null,
+      url: 'https://www.wsj.com/politics/elections/haleys-last-hope-for-beating-trump-rests-with-these-voters-a0025d34',
+      urlToImage: null,
+      publishedAt: '2024-01-20T15:00:03Z',
+      content:
+        "Haley's Last Hope Rests With Independent Voters?Click here to read the full article The post Haley's Last Hope Rests With Independent Voters? captured from The Drudge Report above the fold, link 1 on… [+387 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        'Americans Looking for Love Are Getting Killed by Gangs in Colombia...',
+      description: null,
+      url: 'https://www.wsj.com/world/americas/americans-looking-for-love-are-getting-killed-by-gangs-in-colombia-b12d7671',
+      urlToImage: null,
+      publishedAt: '2024-01-20T15:00:03Z',
+      content:
+        'Americans Looking for Love Are Getting Killed by Gangs in Colombia...Click here to read the full article The post Americans Looking for Love Are Getting Killed by Gangs in Colombia... captured from T… [+423 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Joe Flint',
+      title: 'A Hollywood Upstart Looks to Become a Major Player',
+      description:
+        'Skydance Media’s David Ellison produced and financed movies and shows, and now he has his eyes on Paramount',
+      url: 'https://www.wsj.com/business/media/skydance-ellison-top-gun-reacher-family-plan-paramount-86276f82',
+      urlToImage: 'https://images.wsj.net/im-914796/social',
+      publishedAt: '2024-01-20T09:10:28Z',
+      content:
+        'David Ellisons foray in the entertainment business is a tale as old as Hollywood itselfa rich kid comes to town with dreams of being a mover and shaker. The story typically ends the same way: Industr… [+534 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        'Americans Suddenly Lot More Upbeat About Economy... | | CONSUMER SENTIMENT SURGES...',
+      description: null,
+      url: 'https://www.wsj.com/economy/consumers/americans-are-finally-feeling-better-about-the-economy-e964804f',
+      urlToImage: null,
+      publishedAt: '2024-01-19T23:00:07Z',
+      content:
+        'Americans Suddenly Lot More Upbeat About Economy... | | CONSUMER SENTIMENT SURGES...Click here to read the full article The post Americans Suddenly Lot More Upbeat About Economy... | | CONSUMER SENTI… [+444 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'Home Sales Lowest in Almost 30 Years in 2023...',
+      description: null,
+      url: 'https://www.wsj.com/economy/housing/home-sales-likely-fell-to-15-year-low-in-2023-3da220e1',
+      urlToImage: null,
+      publishedAt: '2024-01-19T16:00:04Z',
+      content:
+        'Home Sales Lowest in Almost 30 Years in 2023...Click here to read the full article The post Home Sales Lowest in Almost 30 Years in 2023... captured from The Drudge Report column 1, link 5 on 1/19/20… [+357 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        'FORD Cuts Production of F-150 Lightning Electric Truck on Fading Demand...',
+      description: null,
+      url: 'https://www.wsj.com/business/autos/ford-to-cut-production-of-electric-f-150-pickups-amid-weaker-demand-df2f2763',
+      urlToImage: null,
+      publishedAt: '2024-01-19T14:00:04Z',
+      content:
+        'FORD Cuts Production of F-150 Lightning Electric Truck on Fading Demand...Click here to read the full article The post FORD Cuts Production of F-150 Lightning Electric Truck on Fading Demand... captu… [+432 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Jon Kamp',
+      title:
+        'She Talked Like Millionaire, Slept in Parking Garage and Fooled Everybody...',
+      description:
+        'Jo Franklin’s family worried for years about her mental stability, but pushing any homeless person into care is tough—especially if they refuse help',
+      url: 'https://www.wsj.com/lifestyle/relationships/homeless-fake-millionaire-fooled-people-6e13e34d',
+      urlToImage: 'https://images.wsj.net/im-913558/social',
+      publishedAt: '2024-01-19T12:13:37Z',
+      content:
+        'PALM BEACH GARDENS, Fla.University of Florida officials went back and forth with documentary filmmaker Jo Franklin over details for a planned gala in Franklins honor at the Four Seasons Hotel in Wash… [+406 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'Why Americans Have Lost Faith in Value of College...',
+      description: null,
+      url: 'https://www.wsj.com/us-news/education/why-americans-have-lost-faith-in-the-value-of-college-b6b635f2',
+      urlToImage: null,
+      publishedAt: '2024-01-19T12:00:03Z',
+      content:
+        'Why Americans Have Lost Faith in Value of College...Click here to read the full article The post Why Americans Have Lost Faith in Value of College... captured from The Drudge Report column 3, link 7 … [+379 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Andrea Figueras',
+      title:
+        'BASF Sales, Earnings Miss Forecasts on Lower Margins, Write-Downs',
+      description: '',
+      url: 'https://www.wsj.com/business/retail/basf-sales-earnings-miss-forecasts-on-lower-margins-write-downs-2e160dc8',
+      urlToImage: 'https://images.wsj.net/im-842433/social',
+      publishedAt: '2024-01-19T09:03:00Z',
+      content:
+        'BASF said Friday that its 2023 results missed expectations, dragged by impairments and lower margins that werent offset by cost cuts.\r\nThe European chemicals giants key profit figureearnings before i… [+309 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'Conservatives Steam Over Border, Spending...',
+      description: null,
+      url: 'https://www.wsj.com/politics/senate-house-cr-spending-deal-government-shutdown-4bebb74a',
+      urlToImage: null,
+      publishedAt: '2024-01-19T02:00:03Z',
+      content:
+        'Conservatives Steam Over Border, Spending...Click here to read the full article The post Conservatives Steam Over Border, Spending... captured from The Drudge Report column 1, link 4 on 1/19/2024 2:0… [+348 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: 'SEIB: What Republicans Used to Believe...',
+      description: null,
+      url: 'https://www.wsj.com/politics/policy/what-republicans-used-to-believe-71a77c22',
+      urlToImage: null,
+      publishedAt: '2024-01-19T02:00:03Z',
+      content:
+        'SEIB: What Republicans Used to Believe...Click here to read the full article The post SEIB: What Republicans Used to Believe... captured from The Drudge Report column 1, link 5 on 1/19/2024 2:00:03 A… [+332 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title:
+        'The Multibillion-Dollar Bet That Truckers Will Ditch Diesel for Electricity...',
+      description: null,
+      url: 'https://www.wsj.com/business/autos/the-multibillion-dollar-bet-that-truckers-will-ditch-diesel-for-electricity-081e3e57',
+      urlToImage: null,
+      publishedAt: '2024-01-18T22:00:03Z',
+      content:
+        'The Multibillion-Dollar Bet That Truckers Will Ditch Diesel for Electricity...Click here to read the full article The post The Multibillion-Dollar Bet That Truckers Will Ditch Diesel for Electricity.… [+450 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: '$8.8 Trillion Cash Pile Has Stock-Market Bulls Salivating...',
+      description: null,
+      url: 'https://www.wsj.com/finance/investing/the-8-8-trillion-cash-pile-that-has-stock-market-bulls-salivating-0a1b4a8c?mod=latest_headlines',
+      urlToImage: null,
+      publishedAt: '2024-01-18T18:00:03Z',
+      content:
+        '$8.8 Trillion Cash Pile Has Stock-Market Bulls Salivating...Click here to read the full article The post $8.8 Trillion Cash Pile Has Stock-Market Bulls Salivating... captured from The Drudge Report c… [+426 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Georgi Kantchev',
+      title: "Vlad's Warped Wartime Economy, as Seen Through Carton of Eggs...",
+      description:
+        "Vlad's Warped Wartime Economy, as Seen Through Carton of Eggs...\r\n\n \n \n \n (Third column, 20th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:The Antiwar Candidate Prepared to Challenge Putin at Ballot Box...\r\n10,000 take to streets, clash with cops...\r\nVIDEO...",
+      url: 'https://www.wsj.com/world/russia/putins-warped-wartime-economy-as-seen-through-a-carton-of-eggs-e599cb3a',
+      urlToImage: 'https://images.wsj.net/im-913230/social',
+      publishedAt: '2024-01-18T13:16:37Z',
+      content:
+        'For a microcosm of how the \r\nwar in Ukraine has warped Russias economy, look no further than a carton of eggs. The grocery staple has been in short supply in recent months and prices have skyrocketed… [+444 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Anne Steele',
+      title: 'Spotify Dominates Audio Streaming, but Where Are the Profits?',
+      description:
+        'The company has expanded beyond music to stay ahead but has struggled to make money',
+      url: 'https://www.wsj.com/business/media/spotify-streaming-music-podcasts-audiobooks-3e88180d',
+      urlToImage: 'https://images.wsj.net/im-912908/social',
+      publishedAt: '2024-01-18T05:49:18Z',
+      content:
+        'Spotify has a plum position in the audio-streaming business. Its the leading platform, with some 600 million users. Its 30% market share is twice that of its next-largest competitor. Spotify is addin… [+334 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: "Healthspan as Important as Lifespan. It's Declining...",
+      description: null,
+      url: 'https://www.wsj.com/health/wellness/americans-unhealthy-chronic-disease-3f35c9f5',
+      urlToImage: null,
+      publishedAt: '2024-01-17T23:00:03Z',
+      content:
+        "Healthspan as Important as Lifespan. It's Declining...Click here to read the full article The post Healthspan as Important as Lifespan. It's Declining... captured from The Drudge Report column 2, lin… [+365 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'www.wsj.com',
+      title: "China's Growth Slows to Three-Decade Low...",
+      description: null,
+      url: 'https://www.wsj.com/world/china/chinas-growth-slows-to-three-decade-low-excluding-pandemic-93d61487',
+      urlToImage: null,
+      publishedAt: '2024-01-17T12:00:03Z',
+      content:
+        "China's Growth Slows to Three-Decade Low...Click here to read the full article The post China's Growth Slows to Three-Decade Low... captured from The Drudge Report column 2, link 1 on 1/17/2024 12:00… [+360 chars]"
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Sabela Ojea',
+      title:
+        'Walt Disney Nominates 12 to Board of Directors, Says CEO Iger’s Compensation Doubled in 2023',
+      description:
+        'Walt Disney Nominates 12 to Board of Directors, Says CEO Iger’s Compensation Doubled in 2023wsj.com',
+      url: 'https://www.wsj.com/business/walt-disney-nominates-12-to-board-of-directors-says-ceo-igers-compensation-doubled-in-2023-1d99af69',
+      urlToImage: 'https://images.wsj.net/im-913109/social',
+      publishedAt: '2024-01-16T23:05:41Z',
+      content:
+        'Walt Disney recommended shareholders vote for its 12 nominees to the companys board of directors and said Chief Executive Robert Igers total compensation doubled in fiscal 2023.\r\nThe company nominate… [+316 chars]'
     },
     {
       source: {
@@ -1346,46 +695,29 @@ export const mockNewsData = {
         name: 'The Wall Street Journal'
       },
       author: 'wsj',
-      title:
-        "Billions in U.S. Funding Hasn't Convinced Developing World to Ditch Coal...",
+      title: 'Only 14.4% of registered Republicans participated...',
       description:
-        'South Africa and Indonesia are backtracking on commitments to burn less of the dirtiest fossil fuel',
-      url: 'https://www.wsj.com/world/billions-in-u-s-funding-hasnt-convinced-developing-world-to-ditch-coal-f11ffa57',
-      urlToImage: 'https://images.wsj.net/im-894606/social',
-      publishedAt: '2023-12-03T13:00:05Z',
+        'The Iowa Caucus kicks off the 2024 presidential election season with Republican voters deciding which candidate will represent the party in the general election — former President Donald Trump, Nikki Haley or Ron DeSantis.',
+      url: 'https://www.wsj.com/livecoverage/iowa-caucus-republican-primary-2024',
+      urlToImage: 'https://images.wsj.net/im-912658/social',
+      publishedAt: '2024-01-16T18:00:04Z',
       content:
-        'Billions in U.S. Funding Hasn’t Convinced Developing World to Ditch CoalJOHANNESBURG—Wealthy nations are sending tens of billions of dollars to poorer ones for clean energy, the linchpin of a global … [+884 chars]'
+        'The Iowa Republican caucuses were a low-turnout affair, drawing just over 108,000 voters, or about 14.4% of the states approximately 752,000 registered Republicans, nearly complete vote tallies showe… [+491 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Jen Murphy',
-      title:
-        'These Six Post-Workout Cooldown Exercises Can Help Improve Flexibility',
+      author: 'Dion Nissenbaum, Nancy A. Youssef',
+      title: 'USA Searches for Navy SEALs Missing in Arabian Sea...',
       description:
-        'These six quick exercises can also help improve your flexibility after a solid sweat',
-      url: 'https://www.wsj.com/lifestyle/fitness/want-to-feel-great-dont-skip-your-workout-cool-down-8f971d2f',
-      urlToImage: 'https://images.wsj.net/im-893608/social',
-      publishedAt: '2023-12-02T22:19:44Z',
+        "USA Searches for Navy SEALs Missing in Arabian Sea...\r\n\n \n \n \n (Third column, 10th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Iran claims to destroy Mossad spy base in Iraq...\r\nDivisions in Israel's War Cabinet Emerge...\r\nChina halts shipments to Jewish State.…",
+      url: 'https://www.wsj.com/world/middle-east/u-s-searches-for-two-navy-seals-missing-in-arabian-sea-e001fba7',
+      urlToImage: 'https://images.wsj.net/im-912751/social',
+      publishedAt: '2024-01-16T15:55:37Z',
       content:
-        'When crunched for time, the post-workout cool-down is the first thing many of us skip. We aim to get the heart pumping and blood flowing during exercise. Its just as important to intentionally bring … [+379 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'wsj',
-      title: 'WALMART Joinis Advertising Exodus...',
-      description:
-        'Retailer says its halt isn’t a boycott, but due to poor performance',
-      url: 'https://www.wsj.com/business/media/walmart-stops-ads-on-x-joining-the-advertising-exodus-4f0a7b0a',
-      urlToImage: 'https://images.wsj.net/im-894958/social',
-      publishedAt: '2023-12-02T16:00:03Z',
-      content:
-        'Walmart Stops Ads on X, Joining the Advertising ExodusBy Dec. 2, 2023 10:30 am ET\r\nWalmart said it had stopped advertising on Elon Musk’s X, joining the parade of major marketers that have left the s… [+788 chars]'
+        'The U.S. military said Tuesday that it was still searching for two Navy SEALs missing since last week after they tried to board a boat off the coast of Somalia carrying what American officials said w… [+479 chars]'
     },
     {
       source: {
@@ -1393,61 +725,29 @@ export const mockNewsData = {
         name: 'The Wall Street Journal'
       },
       author: 'wsj',
-      title: 'Need Job? Smallest Employers Have Record Openings...',
+      title: "Kim Jong Un Has New Enemy No. 1 -- and It Isn't USA...",
       description:
-        'Available positions at establishments with fewer than 10 workers rose almost 20% in recent months',
-      url: 'https://www.wsj.com/economy/jobs/small-business-jobs-hiring-c0b17cf0',
-      urlToImage: 'https://images.wsj.net/im-894756/social',
-      publishedAt: '2023-12-02T16:00:03Z',
+        'North Korea says it will rewrite its constitution casting South Korea as a hostile nation, breaking its policy of seeking peaceful reunification',
+      url: 'https://www.wsj.com/world/asia/kim-jong-un-has-a-new-enemy-no-1and-it-isnt-the-u-s-942eaa10',
+      urlToImage: 'https://images.wsj.net/im-912594/social',
+      publishedAt: '2024-01-16T14:00:04Z',
       content:
-        'Need a Job? America’s Smallest Employers Have a Record Share of OpeningsBy Dec. 2, 2023 10:00 am ET\r\nAmerica’s tiniest employers have the highest share of job openings on record—more than one in five… [+1003 chars]'
+        'Kim Jong Un Has a New Enemy No. 1—and It Isn’t the U.S.By Jan. 16, 2024 8:00 am ET\r\nSEOUL—North Korean leader Kim Jong Un said the country would rewrite its constitution to label South Korea as its p… [+864 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'wsj',
-      title:
-        "Trump's Second-Term Plans: Anti-'Woke' University, 'Freedom Cities'...",
+      author: 'Andrew Beaton',
+      title: 'The Stunning Collapse of the Philadelphia EAGLES...',
       description:
-        'Former president wants more active government, upending GOP orthodoxy',
-      url: 'https://www.wsj.com/politics/elections/trumps-second-term-plans-anti-woke-university-freedom-cities-28f8123d',
-      urlToImage: 'https://images.wsj.net/im-894050/social',
-      publishedAt: '2023-12-02T16:00:03Z',
+        'Coming off a Super Bowl appearance and with the best record in the league after 12 weeks, a wild-card playoff loss cemented a stunning collapse. But there were signs of their issues even before they fell apart.',
+      url: 'https://www.wsj.com/sports/football/philadelphia-eagles-nfl-nick-sirianni-a4fb9270',
+      urlToImage: 'https://images.wsj.net/im-912639/social',
+      publishedAt: '2024-01-16T13:10:37Z',
       content:
-        'Trump’s Second-Term Plans: Anti-‘Woke’ University, ‘Freedom Cities’WASHINGTON—As he campaigns to retake the White House, Donald Trump has increasingly tossed aside the principles of limited governmen… [+1009 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Telis Demos',
-      title: 'Digital Payments Are Having a Jolly Holiday',
-      description:
-        'Investors might be warming again to the growth potential of alternative ways to pay',
-      url: 'https://www.wsj.com/business/retail/digital-payments-are-having-a-jolly-holiday-7aaa55f7',
-      urlToImage: 'https://images.wsj.net/im-893584/social',
-      publishedAt: '2023-12-02T13:00:00Z',
-      content:
-        'This years Black Friday might not have been marked by stories of mobs of shoppers like in past years, but it made up for that drama digitally.\r\nIn-store U.S. retail sales on Black Friday rose 1.1% ov… [+312 chars]'
-    },
-    {
-      source: {
-        id: 'the-wall-street-journal',
-        name: 'The Wall Street Journal'
-      },
-      author: 'Hannah Miao',
-      title:
-        'Defense Stocks Benefit From War, Renewing ESG Debate for Everyday Investors',
-      description:
-        'Shares of weapons makers have outperformed the S&P 500 since Oct. 7',
-      url: 'https://www.wsj.com/finance/investing/investing-strategy-esg-defense-stocks-debate-51029aca',
-      urlToImage: 'https://images.wsj.net/im-894559/social',
-      publishedAt: '2023-12-02T10:30:00Z',
-      content:
-        'When Shiva Chidambaram started putting money into his 401(k) a couple of years ago, he didnt think much about his investments. Then the war in the Middle East began.\r\nChidambaram came across a tweet … [+372 chars]'
+        'It wasnt terribly long ago that the Philadelphia Eagles were the toast of the NFL. Coming off an appearance in last years Super Bowl, which they nearly won, the Eagles had the best record in the leag… [+365 chars]'
     },
     {
       source: {
@@ -1455,31 +755,91 @@ export const mockNewsData = {
         name: 'The Wall Street Journal'
       },
       author: 'AnnaMaria Andriotis',
-      title:
-        'A Divorce With Apple, Internal Strife: How Goldman’s Main Street Bet Failed',
+      title: 'Morgan Stanley Earnings Fall on Charges',
       description:
-        'The Wall Street firm was looking to get out of consumer lending, once a big area of expansion. But Apple dumped it first.',
-      url: 'https://www.wsj.com/finance/banking/a-divorce-with-apple-internal-strife-how-goldmans-main-street-bet-failed-e169231a',
-      urlToImage: 'https://images.wsj.net/im-894129/social',
-      publishedAt: '2023-12-02T05:23:00Z',
+        'Morgan Stanley and Goldman Sachs results are in the spotlight',
+      url: 'https://www.wsj.com/livecoverage/stock-market-today-dow-jones-bank-earnings-01-16-2024',
+      urlToImage: 'https://images.wsj.net/im-911706/social',
+      publishedAt: '2024-01-16T13:05:59Z',
       content:
-        'At an off-site in upstate New York last month, during a dinner lasting roughly three hours, Goldman Sachs Chief Executive David Solomon told partners that the firm had made some mistakes with consume… [+610 chars]'
+        'Morgan Stanley just released its fourth-quarter earnings. Overall profit fell 32% from one year ago, to $1.5 billion.\r\n That amounted to $0.85 per share.\r\n Revenue was $12.9 billion, up 1% from a yea… [+359 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Nick Kostov',
+      author: 'Alexa Corse',
       title:
-        'Pharrell Williams Brings Louis Vuitton to Hong Kong for Fashion Show',
+        "Twitter's Old Logos And Office Relics Find New Life As Home Decor",
       description:
-        'With a splashy fashion show in Hong Kong featuring Chinese A-listers, the brand is projecting confidence in one of the world’s largest markets for luxury goods',
-      url: 'https://www.wsj.com/business/retail/louis-vuitton-hong-kong-pharrell-williams-fd34012e',
-      urlToImage: 'https://images.wsj.net/im-894242/social',
-      publishedAt: '2023-12-02T00:04:52Z',
+        'Items auctioned off after Elon Musk takeover wound up scattered around San Francisco Bay Area; a data scientist is now proud parent of a six-foot hashtag statue.',
+      url: 'https://www.wsj.com/tech/twitter-office-auction-home-decor-06b1895e',
+      urlToImage: 'https://images.wsj.net/im-912793/social',
+      publishedAt: '2024-01-16T13:05:59Z',
       content:
-        'HONG KONGFor one night only, this citys famed promenade along the waterfront was converted into a sandy shoreline. \r\nLouis Vuitton, the Parisian luxury powerhouse, staged a glitzy fashion show in Hon… [+530 chars]'
+        'SAN FRANCISCOBidding on a nearly 6-foot-tall statue of a hashtag that was being auctioned off from the longtime Twitter headquarters seemed like a fun idea to former Twitter data scientist Lauren Fra… [+416 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Maria Armental',
+      title: 'TPG Acquires Supply-Chain Risk Company Sayari Labs',
+      description:
+        'Sayari, which has government and commercial customers, plans to launch a new artificial intelligence-enhanced product for supply-chain risk management',
+      url: 'https://www.wsj.com/articles/tpg-acquires-supply-chain-risk-company-sayari-labs-635df636',
+      urlToImage: 'https://images.wsj.net/im-911935/social',
+      publishedAt: '2024-01-16T12:52:53Z',
+      content:
+        'Private-equity firm TPG is acquiring venture capital-backed risk management technology company Sayari Labs, which works with clients that include the U.S. Labor Department to help expose risks in sup… [+259 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Jacob Passy',
+      title: 'Why Your Flight May Not Have an EpiPen for Emergencies',
+      description:
+        'Not all airlines have EpiPens to treat serious allergic reactions, prompting scrutiny from U.S. lawmakers',
+      url: 'https://www.wsj.com/lifestyle/travel/airlines-medical-emergencies-epipen-allergies-39b5eb5a',
+      urlToImage: 'https://images.wsj.net/im-907560/social',
+      publishedAt: '2024-01-16T12:02:09Z',
+      content:
+        'Treatment for a life-or-death midair medical emergency can depend on which plane you happen to be on.\r\nMore than 20 million Americans are estimated to have food allergies, based on data from the Nati… [+387 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'wsj',
+      title:
+        "Divisions in Israel's War Cabinet Emerge as Gaza Conflict Enters Pivotal Stage...",
+      description:
+        'Wartime leaders are diverging on the two biggest dilemmas they face as a group',
+      url: 'https://www.wsj.com/world/middle-east/divisions-in-israels-war-cabinet-emerge-as-gaza-conflict-enters-pivotal-stage-ad0f82cd',
+      urlToImage: 'https://images.wsj.net/im-912697/social',
+      publishedAt: '2024-01-16T12:00:07Z',
+      content:
+        'Divisions in Israel’s War Cabinet Emerge as Gaza Conflict Enters Pivotal StageRifts among Israel’s war cabinet are spilling into public view, threatening to undermine the country’s military strategy … [+1045 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Jinjoo Lee',
+      title: 'Natural-Gas Prices Remain Under Pressure Despite Cold Snap',
+      description:
+        'Robust production, full storage and delays in LNG capacity additions all point toward a year of mild natural-gas prices',
+      url: 'https://www.wsj.com/finance/commodities-futures/natural-gas-prices-remain-under-pressure-despite-cold-snap-25c33973',
+      urlToImage: 'https://images.wsj.net/im-911932/social',
+      publishedAt: '2024-01-16T12:00:00Z',
+      content:
+        'Natural-gas prices have been low this winter, helped by healthy production and unusually warm weather. The current \r\nwinter storm could change that temporarily, but the long-term forecast is still fo… [+831 chars]'
     },
     {
       source: {
@@ -1487,43 +847,653 @@ export const mockNewsData = {
         name: 'The Wall Street Journal'
       },
       author: null,
-      title: 'Energy & Utilities Roundup: Market Talk',
+      title: 'Oil Falls Amid Risk-Off Sentiment',
       description: '',
-      url: 'https://www.wsj.com/finance/commodities-futures/energy-utilities-roundup-market-talk-220b0206',
-      urlToImage: 'https://images.wsj.net/im-884087/social',
-      publishedAt: '2023-12-01T22:59:00Z',
+      url: 'https://www.wsj.com/business/energy-oil/oil-price-doesnt-reflect-risk-of-wider-middle-east-conflict-a3994f8b',
+      urlToImage: null,
+      publishedAt: '2024-01-15T23:33:00Z',
       content:
-        'The latest Market Talks covering Energy and Utilities. Published exclusively on Dow Jones Newswires at 4:20 ET, 12:20 ET and 16:50 ET.1448 EST Natural gas futures shake off early losses and settle hi… [+768 chars]'
+        '0206 GMT Oil falls in the Asian morning session amid risk-off sentiment spurred partly by losses in U.S. stock-index futures. A softer tone across broader markets appears to offset geopolitical risks… [+1112 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Ben Glickman',
-      title: 'Uber, Jabil, Builders FirstSource to Join S&P 500',
+      author: 'Bob Tita',
+      title:
+        'John Deere, Meet Elon Musk: SpaceX Satellites to Link Farm Giant’s Equipment',
       description:
-        'Sealed Air, Alaska Air Group and SolarEdge Technologies to be replaced',
-      url: 'https://www.wsj.com/finance/uber-jabil-builders-firstsource-to-join-s-p-500-e194b76e',
-      urlToImage: 'https://images.wsj.net/im-894886/social',
-      publishedAt: '2023-12-01T22:56:00Z',
+        'Farm machinery maker hires SpaceX’s Starlink service to provide satellite internet connections for tractors, harvesters and crop sprayers in remote areas',
+      url: 'https://www.wsj.com/business/telecom/john-deere-meet-elon-musk-spacex-satellites-to-link-farm-giants-equipment-e0936668',
+      urlToImage: 'https://images.wsj.net/im-912276/social',
+      publishedAt: '2024-01-15T20:29:07Z',
       content:
-        'Uber Technologies, Jabil and Builders FirstSource will join the S&amp;P 500, S&amp;P Global said Friday.\r\nThe three will replace Sealed Air, Alaska Air Group and SolarEdge Technologies in the index, … [+113 chars]'
+        'Deere said it would tap SpaceXs satellite fleet to propel the tractor makers digital farming push and help automate planting and harvesting in remote locations.\r\nThe worlds largest farm machinery man… [+317 chars]'
     },
     {
       source: {
         id: 'the-wall-street-journal',
         name: 'The Wall Street Journal'
       },
-      author: 'Andrew Shtulman',
-      title: 'Why Adults Are More Imaginative Than Children',
+      author: 'Fred A. Bernstein',
+      title:
+        'They Hated Their Brooklyn Townhouse. Now They Wouldn’t Dream of Calling It ‘Ugly.’',
       description:
-        'The idea that we lose our freedom to imagine as we get older is familiar from children’s books, but psychological research suggests it’s a myth.',
-      url: 'https://www.wsj.com/science/why-adults-are-more-imaginative-than-children-7a86aa86',
-      urlToImage: 'https://images.wsj.net/im-884347/social',
-      publishedAt: '2023-12-01T22:14:48Z',
+        'Architect Pierre-Henri Hoppenot and his wife, entrepreneur Daphne Earp Hoppenot, launched a $550,000 renovation after purchasing a home in Carroll Gardens',
+      url: 'https://www.wsj.com/style/design/they-hated-their-brooklyn-townhouse-now-they-wouldnt-dream-of-calling-it-ugly-05f4f2d1',
+      urlToImage: 'https://images.wsj.net/im-905475/social',
+      publishedAt: '2024-01-15T15:00:00Z',
       content:
-        'The idea that children are imaginative but adults are not is a popular theme in childrens literature. In Charlie and the Chocolate Factory, Willy Wonka is intent on leaving his factory to a child bec… [+1044 chars]'
+        'In 2018, architect Pierre-Henri Hoppenot, who was born in France but grew up in Pennsylvania and New Jersey, and his wife, tech entrepreneur Daphne Earp Hoppenot, who grew up in Washington, D.C., pai… [+808 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Benoit Faucon, Costas Paris',
+      title: 'USA Intercepts Cruise Missile Attack on Warship in Red Sea...',
+      description:
+        "USA Intercepts Cruise Missile Attack on Warship in Red Sea...\r\n\n \n \n \n (Third column, 12th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Biden 'running out' of patience with Netanyahu...\r\nHamas releases chilling video of hostages...",
+      url: 'https://www.wsj.com/world/middle-east/u-s-intercepts-cruise-missile-attack-on-its-warship-in-red-sea-363300da',
+      urlToImage: 'https://images.wsj.net/im-912352/social',
+      publishedAt: '2024-01-15T14:07:38Z',
+      content:
+        'The U.S. military said its forces shot down a cruise missile fired from Houthi rebel areas toward an American Navy destroyer in the Red Sea, days after \r\nthe U.S. led air and naval strikes against th… [+447 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Jason Gay',
+      title: "'PEACOCK Game': NFL's Digital Buttfumble...",
+      description:
+        "'PEACOCK Game': NFL's Digital Buttfumble...\r\n\n \n \n \n (Third column, 7th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:COWBOYS Fall on Faces in Playoffs -- Again...\r\n\n \r\n\n \n \n Drudge Report Feed needs your support!   Become a Patron",
+      url: 'https://www.wsj.com/sports/football/peacock-game-chiefs-dolphins-mahomes-5b453cba',
+      urlToImage: 'https://images.wsj.net/im-912246/social',
+      publishedAt: '2024-01-15T12:55:38Z',
+      content:
+        'The Dallas Cowboys are toast, and that is always amusing, but I shall write about the Kansas City Chiefs, because they were in The Peacock Game. The Peacock Game! For irritated fans, it immediately e… [+553 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Dan Frosch, Zusha Elinson',
+      title:
+        'The Gun Influencer Who Used Small-Town Cops to Import Machine Guns...',
+      description:
+        'The Gun Influencer Who Used Small-Town Cops to Import Machine Guns...\r\n\n \n \n \n (Second column, 10th story, link)\r\n\n \r\n\n \r\n\n \n \n Drudge Report Feed needs your support!   Become a Patron',
+      url: 'https://www.wsj.com/us-news/the-gun-influencer-who-used-small-town-cops-to-import-machine-guns-bf91641c',
+      urlToImage: 'https://images.wsj.net/im-912146/social',
+      publishedAt: '2024-01-15T12:55:37Z',
+      content:
+        'James Sawyer, the police chief and only officer in Ray, N.D., spent his days waiting to catch the occasional driver going over the 25 mph speed limit where the highway hits this farm town of 700 resi… [+726 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Patience Haggin',
+      title:
+        'Chiefs-Dolphins Playoff Game on Peacock Sets Records for U.S. Streaming and Internet Usage',
+      description:
+        'Game on NBCUniversal’s streaming service draws 23 million viewers, accounts for 30% of U.S. web traffic',
+      url: 'https://www.wsj.com/business/media/chiefs-dolphins-playoff-game-on-peacock-sets-u-s-streaming-and-internet-usage-records-c81a9980',
+      urlToImage: 'https://images.wsj.net/im-912277/social',
+      publishedAt: '2024-01-15T10:31:03Z',
+      content:
+        'The NFL playoff game between the Kansas City Chiefs and Miami Dolphins made historyand not just because it was so cold that one head coachs mustache \r\nformed icicles.The Wild Card game, which aired o… [+426 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: null,
+      title: 'Metals Mixed After China Leaves Key Policy Rates Unchanged',
+      description: '',
+      url: 'https://www.wsj.com/finance/commodities-futures/gold-edges-lower-in-likely-technical-correction-7208e173',
+      urlToImage: null,
+      publishedAt: '2024-01-15T08:58:00Z',
+      content:
+        '0854 GMT Metal prices are mixed after Chinas central bank left its key policy rates unchanged against expectations of monetary easing to boost the economy. Three-month copper is 0.5% higher at $8,338… [+1276 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Yoko Kubota',
+      title: 'Boeing Faces Longer Wait to Resume MAX Deliveries in China',
+      description:
+        'More safety checks are being planned on the undelivered planes following the Alaska Airlines blowout',
+      url: 'https://www.wsj.com/business/airlines/boeing-faces-longer-wait-to-resume-max-deliveries-in-china-9277f534',
+      urlToImage: 'https://images.wsj.net/im-911786/social',
+      publishedAt: '2024-01-15T04:00:00Z',
+      content:
+        'BEIJINGBoeings long-awaited delivery resumption of its 737 MAX jets to China faces fresh delays after the \r\nAlaska Airlines incident, as the plane maker was poised to benefit from the thaw in U.S.-Ch… [+501 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'The Editorial Board',
+      title: 'California Invents a Crazy New Tort',
+      description:
+        'Golden State judges rule that Gilead can be sued for taking too long to develop an HIV drug.',
+      url: 'https://www.wsj.com/articles/california-gilead-hiv-drug-lawsuit-tort-law-2143597c',
+      urlToImage: 'https://images.wsj.net/im-912222/social',
+      publishedAt: '2024-01-15T03:59:09Z',
+      content:
+        'Businesses are often sued for selling allegedly faulty products that arent actually defective. Last week a California appeals court ruled that businesses can also be sued for \r\nfailing to develop a p… [+485 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Mike Colias',
+      title: 'Chevy Blazer Troubles Add to GM’s EV Growing Pains',
+      description:
+        'General Motors halted sales of the new SUV, citing software problems. Automaker also has had issues with its other new EVs.',
+      url: 'https://www.wsj.com/business/autos/chevy-blazer-troubles-add-to-gms-ev-growing-pains-8f7e5c64',
+      urlToImage: 'https://images.wsj.net/im-911944/social',
+      publishedAt: '2024-01-15T01:08:36Z',
+      content:
+        'As one of the nations first owners of General Motors new electric Chevrolet Blazer, James Hattin was loving the SUVbefore the problems began.\r\nOn a trip from the mountains back to his home in Burbank… [+324 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'wsj',
+      title: "Amid War in Middle East, Ukraine Fights to Keep Allies' Focus...",
+      description:
+        'Peace meeting on eve of World Economic Forum offers Kyiv a big stage, but hopes for progress are slim',
+      url: 'https://www.wsj.com/world/europe/amid-war-in-middle-east-ukraine-fights-to-keep-u-s-and-allies-focus-cfe7a0d8',
+      urlToImage: 'https://images.wsj.net/im-912193/social',
+      publishedAt: '2024-01-15T01:00:03Z',
+      content:
+        'Amid War in Middle East, Ukraine Fights to Keep U.S. and Allies’ FocusBy and Updated Jan. 14, 2024 4:11 pm ET\r\nDAVOS, Switzerland—As Ukraine girds for the third year of full-scale war against Russia’… [+1030 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Nicole Friedman, Mariah Timms',
+      title: 'Atlanta DA Defends Hiring of Special Prosecutor in Trump Case',
+      description:
+        'In speech, Fani Willis calls co-counsel Nathan Wade a ‘lawyer of impeccable credentials’ and attributes criticisms of him to racial bias',
+      url: 'https://www.wsj.com/us-news/atlanta-da-defends-hiring-of-special-prosecutor-in-trump-case-6d7bbe74',
+      urlToImage: 'https://images.wsj.net/im-912224/social',
+      publishedAt: '2024-01-14T20:09:00Z',
+      content:
+        'Fulton County, Ga., District Attorney Fani Willis defended her decision to hire Nathan Wade as a special prosecutor, saying in a speech Sunday morning that the lead lawyer in her offices racketeering… [+509 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Allysia Finley',
+      title: 'Hertz, Tesla and the Perils of CEO Groupthink',
+      description:
+        'The rental company was far from alone in making a losing bid on electric cars.',
+      url: 'https://www.wsj.com/articles/hertz-tesla-and-the-perils-of-groupthink-electric-vehicles-auto-industry-dd50c158',
+      urlToImage: 'https://images.wsj.net/im-912186/social',
+      publishedAt: '2024-01-14T17:07:00Z',
+      content:
+        'Hertz announced to much fanfare on Oct. 25, 2021, that it planned to buy 100,000 Teslas. Electric vehicles are now mainstream, and weve only just begun to see rising global demand and interest, then-… [+615 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Harriet Torry, Anthony DeBarros',
+      title: 'ECONOMISTS: No Recession -- Will Just Feel Like One...',
+      description:
+        'Economists, in survey, pare back probability of recession in 2024, but still see anemic growth and rising unemployment',
+      url: 'https://www.wsj.com/economy/it-wont-be-a-recession-it-will-just-feel-like-one-1919267a',
+      urlToImage: 'https://images.wsj.net/im-911263/social',
+      publishedAt: '2024-01-14T10:58:37Z',
+      content:
+        'The good news is the probability of a recession is down sharply, according to The Wall Street Journals latest survey of economists. The bad news is that, for a lot of people, it is still going to fee… [+277 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Carol Ryan',
+      title: 'Luxury Hand-Me-Downs Are Now Worth Billions of Dollars',
+      description:
+        'Shoppers are increasingly turning to secondhand websites to sell barely-used designer clothes and handbags. Big brands aren’t happy about it.',
+      url: 'https://www.wsj.com/business/retail/luxury-hand-me-downs-are-now-worth-billions-of-dollars-68d8ad6b',
+      urlToImage: 'https://images.wsj.net/im-910427/social',
+      publishedAt: '2024-01-14T02:57:16Z',
+      content:
+        'As much as luxury companies would love to stamp out the secondhand trade in their products, its an impossible task. All the better for fashionistas and investors, who can both benefit from this boomi… [+561 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'wsj',
+      title:
+        "What's in That Huge Suitcase? Old-School Money Launderers Stuff Bags With Cash...",
+      description:
+        'A network of smugglers flew business class to gain extra luggage allowances, moving more than $1 million at a time from London to Dubai',
+      url: 'https://www.wsj.com/world/uk/whats-in-those-huge-suitcases-125-million-in-cash-7cd97ba1',
+      urlToImage: 'https://images.wsj.net/im-911654/social',
+      publishedAt: '2024-01-13T15:00:03Z',
+      content:
+        'What’s in Those Huge Suitcases? $125 Million in CashBy Updated Jan. 13, 2024 12:01 am ET\r\nThey looked like ordinary tourists with very big bags. But like a network of ants, they carried off tens of m… [+937 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'wsj',
+      title:
+        "Evangelicals' Choice: Does Faith Compel Support for Trump, or Someone Else?",
+      description:
+        'White Christians in the Hawkeye State will have an outsize influence on picking GOP nominee',
+      url: 'https://www.wsj.com/politics/elections/iowa-evangelicals-choice-does-faith-compel-support-for-trump-or-someone-else-e1e36518',
+      urlToImage: 'https://images.wsj.net/im-910229/social',
+      publishedAt: '2024-01-13T15:00:03Z',
+      content:
+        'Iowa Evangelicals’ Choice: Does Faith Compel Support for Trump, or Someone Else?DES MOINES, Iowa—As they have crisscrossed the Hawkeye state, the major 2024 Republican presidential candidates have pa… [+949 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Nick Timiraos',
+      title: 'Fed Posts Largest-Ever Annual Operating Loss...',
+      description:
+        "Fed Posts Largest-Ever Annual Operating Loss...\r\n\n \n \n \n (Second column, 12th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Biden sells economic strength, but voters aren't buying yet...\r\n44% JOB APPROVAL...\r\n$6 Trillion in Taxes at Stake in This Year's Elections…",
+      url: 'https://www.wsj.com/economy/central-banking/fed-posts-largest-ever-annual-operating-loss-6e249a39',
+      urlToImage: 'https://images.wsj.net/im-911724/social',
+      publishedAt: '2024-01-12T19:40:38Z',
+      content:
+        'The Federal Reserve ran an operating loss of $114.3 billion last year, its largest ever, a consequence of its campaign to aggressively support the economy in 2020 and 2021, then \r\njacking up interest… [+457 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Elizabeth Findell',
+      title: 'Blocking Border Patrol From Busy Crossing Area?',
+      description:
+        'Blocking Border Patrol From Busy Crossing Area?\r\n\n \n \n \n (Third column, 2nd story, link)\r\n\n \r\n\n \r\n\n \n Related stories:SHOWDOWN: Texas erects new border barrier as dispute with Biden admin ramps up...\r\nMigrants in Chicago without showers, dig for food in trash…',
+      url: 'https://www.wsj.com/us-news/u-s-claims-texas-is-blocking-border-patrol-from-busy-migrant-crossing-area-45b35e1e',
+      urlToImage: 'https://images.wsj.net/im-911771/social',
+      publishedAt: '2024-01-12T18:37:38Z',
+      content:
+        'Texas state officials are blocking federal Border Patrol agents from accessing a busy section of the U.S.-Mexico border, the federal government has alleged in a new legal filing, a move that represen… [+673 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Will Feuer',
+      title: 'Delta Air Lines Reports Jump in Revenue, Strong Travel Demand',
+      description: 'Brent crude futures rise past $80 a barrel',
+      url: 'https://www.wsj.com/livecoverage/stock-market-today-dow-jones-bank-earnings-01-12-2024',
+      urlToImage: 'https://images.wsj.net/im-911462/social',
+      publishedAt: '2024-01-12T11:30:45Z',
+      content:
+        'Delta Air Lines forecast another strong year of travel after the airline posted double-digit revenue growth for the fourth quarter.\r\nDelta is the first U.S. carrier to report results for the holiday-… [+287 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Dan Gallagher',
+      title: 'Why Big Tech Is Still Minding Its Bills',
+      description:
+        'Layoffs at Google, Amazon kick off year that will see higher AI spending but likely limited revenue impact',
+      url: 'https://www.wsj.com/tech/why-big-tech-is-still-minding-its-bills-f098bcad',
+      urlToImage: 'https://images.wsj.net/im-911237/social',
+      publishedAt: '2024-01-12T11:30:00Z',
+      content:
+        'Even the deepest pockets have their limits. \r\nAmazon and Google-parent Alphabet sit on a combined $184 billion in cash and short-term investments. Those two, along with big tech peers Microsoft, Appl… [+383 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Jack Pitcher',
+      title:
+        'BlackRock to Buy Global Infrastructure Partners for $12.5 Billion',
+      description:
+        'The acquisition of the private-equity firm would be BlackRock’s largest in 15 years',
+      url: 'https://www.wsj.com/business/deals/blackrock-to-buy-global-infrastructure-partners-for-12-5-billion-22f8e3d9',
+      urlToImage: 'https://images.wsj.net/im-911505/social',
+      publishedAt: '2024-01-12T11:19:02Z',
+      content:
+        'BlackRock has agreed to buy private-equity firm Global Infrastructure Partners for roughly $12.5 billion in cash and stock, a significant push into private-market investments for the worlds largest a… [+358 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Marc Vartabedian',
+      title:
+        'Carta, a Key Silicon Valley Player for Startups, Stumbles, Prompting Customers to Consider Competitors',
+      description:
+        'Carta, a Key Silicon Valley Player for Startups, Stumbles, Prompting Customers to Consider Competitorswsj.com',
+      url: 'https://www.wsj.com/articles/carta-a-key-silicon-valley-player-for-startups-stumbles-prompting-customers-to-consider-competitors-89800bb8',
+      urlToImage: 'https://images.wsj.net/im-911403/social',
+      publishedAt: '2024-01-12T11:00:00Z',
+      content:
+        'Customers of Carta, spurred by the shuttering of its secondary trading division and a loss of trust in the 14-year-old company, are reaching out to competitors about potentially switching over to the… [+303 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'wsj',
+      title: 'NOONAN: Each party seems set to make big mistake...',
+      description:
+        'Each party seems set to make a big mistake, but a Trump-Biden rematch isn’t yet inevitable.',
+      url: 'https://www.wsj.com/articles/the-voters-finally-get-their-say-2024-presidential-election-trump-biden-not-inevitable-51fd5703',
+      urlToImage: 'https://images.wsj.net/im-911412/social',
+      publishedAt: '2024-01-12T04:00:04Z',
+      content:
+        'Opinion | The Voters Finally Get Their SayBy Jan. 11, 2024 6:38 pm ET\r\nWonder Land: Surveying the record of his three years in office, Mr. Biden has decided his re-election turns on two events: the C… [+1228 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'listenallyall',
+      title: 'Remote Workers Are Losing Out on Promotions',
+      description:
+        'Article URL: https://www.wsj.com/lifestyle/careers/remote-workers-are-losing-out-on-promotions-8219ec63\nComments URL: https://news.ycombinator.com/item?id=38963307\nPoints: 9\n# Comments: 3',
+      url: 'https://www.wsj.com/lifestyle/careers/remote-workers-are-losing-out-on-promotions-8219ec63',
+      urlToImage: 'https://images.wsj.net/im-910686/social',
+      publishedAt: '2024-01-12T03:28:46Z',
+      content:
+        'For a while, remote workers seemed to have it all: elastic waistbands, no commute, better concentration and the ability to pop in laundry loads between calls.\r\nNew data, though, shows fully remote wo… [+204 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Benjamin Katz',
+      title: 'Airbus Shatters Record for Jet Orders as Demand Soars',
+      description:
+        'European plane maker sees bookings more than double from previous year',
+      url: 'https://www.wsj.com/business/airlines/airbus-shatters-record-for-jet-orders-as-demand-soars-a9f75750',
+      urlToImage: 'https://images.wsj.net/im-911144/social',
+      publishedAt: '2024-01-11T20:51:35Z',
+      content:
+        'LONDONAirbus, the worlds biggest plane maker, smashed its near-decade old record for the highest number of orders in a single year, as airlines scramble to secure the limited availability of new airc… [+254 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Sarah Nassauer',
+      title: 'CVS is Closing Pharmacies Inside Some Target Stores',
+      description:
+        'The healthcare giant has aimed to close about 300 stores annually in past few years',
+      url: 'https://www.wsj.com/business/retail/cvs-is-closing-pharmacies-inside-some-target-stores-22db5445',
+      urlToImage: 'https://images.wsj.net/im-911258/social',
+      publishedAt: '2024-01-11T19:47:00Z',
+      content:
+        'CVS Health plans to close dozens of pharmacies inside Target stores at a time when pharmacy chains are struggling to grow retail profits.\r\nCVS will close the pharmacies between February and April thi… [+317 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'wsj',
+      title: 'Loyalists Could Make Him Even More Powerful...',
+      description:
+        'With a less independent bureaucracy, Trump would exercise far more economic and foreign-policy clout',
+      url: 'https://www.wsj.com/politics/policy/how-trump-loyalists-could-make-the-president-even-more-powerful-607353cc',
+      urlToImage: 'https://images.wsj.net/im-910863/social',
+      publishedAt: '2024-01-11T16:00:03Z',
+      content:
+        'How Trump Loyalists Could Make the President Even More PowerfulBy Jan. 11, 2024 10:30 am ET\r\nScholars of the left and right generally agree that over the past century political power migrated from th… [+790 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Gina Heeb',
+      title: 'Bank Earnings Season Is About to Start. Here’s What to Expect.',
+      description:
+        'JPMorgan and Wells Fargo report fourth-quarter results Friday after turning in big profit growth for the first three quarters of last year',
+      url: 'https://www.wsj.com/finance/banking/bank-earnings-season-is-about-to-start-heres-what-to-expect-f51edcf5',
+      urlToImage: 'https://images.wsj.net/im-910740/social',
+      publishedAt: '2024-01-11T15:00:00Z',
+      content:
+        'Big banks held up well in 2023, even though the Federal Reserve continued to raise interest rates at a fast clip. Reports on fourth-quarter bank earnings, which start this week, should show how the b… [+541 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Sarah E. Needleman',
+      title: 'How A $300 Million Flop Turned Into An Improbable Hit',
+      description:
+        'Roughly three years after a costly and disastrous launch, "Cyberpunk 2077," a videogame featuring Keanu Reeves, has sold 25 million units and won a major award.',
+      url: 'https://www.wsj.com/tech/cyberpunk-2077-videogame-flop-to-hit-58ed2741',
+      urlToImage: 'https://images.wsj.net/im-908364/social',
+      publishedAt: '2024-01-11T14:47:30Z',
+      content:
+        'Days after Cyberpunk 2077 made its debut in December 2020, the much-hyped videogame was so buggy that Sony Group pulled it \r\nfrom its PlayStation store and players plastered social media with complai… [+377 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Benoit Faucon, Margherita Stancati',
+      title: 'Armed, Uniformed Men Divert Oil Tanker to Iranian Waters...',
+      description:
+        'The vessel, seized off the coast of Oman, had been previously commandeered by the U.S. for sanctions evasion as it transported Iranian oil',
+      url: 'https://www.wsj.com/world/middle-east/armed-uniformed-men-divert-oil-tanker-to-iranian-waters-d843f9a3',
+      urlToImage: 'https://images.wsj.net/im-910998/social',
+      publishedAt: '2024-01-11T12:13:37Z',
+      content:
+        'Armed, uniformed men boarded an oil tanker off the coast of Oman that has been at the center of \r\na dispute between Iran and the U.S. and changed its course on Thursday, according to maritime intelli… [+476 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Miles Kruppa',
+      title: 'Google Trims Hundreds of Jobs as It Marshalls Resources for AI',
+      description:
+        'Cuts affect employees in divisions including hardware and internal software tools',
+      url: 'https://www.wsj.com/tech/google-trims-hundreds-of-jobs-as-it-marshalls-resources-for-ai-6558298c',
+      urlToImage: 'https://images.wsj.net/im-910956/social',
+      publishedAt: '2024-01-11T04:40:00Z',
+      content:
+        'Google laid off hundreds of employees in several areas of the business on Wednesday, a sign of further cost reductions at the search giant as it continues to reverse a pandemic hiring spree.\r\nThe cut… [+318 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Julie Wernau',
+      title: 'More Teens Who Use Marijuana Are Suffering from Psychosis',
+      description:
+        'More potent cannabis and more frequent use are contributing to higher rates of psychosis, especially in young people',
+      url: 'https://www.wsj.com/us-news/marijuana-depression-psychosis-869490d1',
+      urlToImage: 'https://images.wsj.net/im-910543/social',
+      publishedAt: '2024-01-11T03:57:10Z',
+      content:
+        'When Braxton Clark was in high school, he used marijuana to control his emotions. At 17, he used it every day. \r\nWhen he was 18, he had a psychotic episode after using cannabis and was admitted to a … [+227 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Richard Rubin',
+      title: 'DeSantis Defends Flat Income Tax Plan',
+      description:
+        'Nikki Haley and Ron DeSantis are set to square off Wednesday night in Des Moines just days before the Iowa caucuses. Chris Christie suspended his presidential campaign. Donald Trump again will be a debate no-show.',
+      url: 'https://www.wsj.com/livecoverage/gop-republican-debate-iowa',
+      urlToImage: 'https://images.wsj.net/im-910905/social',
+      publishedAt: '2024-01-11T03:17:00Z',
+      content:
+        'Ron DeSantis described a single-rate income tax system where high-income households would pay the same marginal tax rate as middle-income families. Pressed on the fairness of that approach, he said h… [+463 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Isabella Simonetti',
+      title:
+        'Pat McAfee Says Aaron Rodgers Won’t Appear on ESPN Show for Rest of NFL Season',
+      description:
+        '‘There are going to be a lot of people that are happy with that, myself included,’ McAfee said',
+      url: 'https://www.wsj.com/business/media/pat-mcafee-says-aaron-rodgers-wont-appear-on-espn-show-for-rest-of-nfl-season-b9cad77b',
+      urlToImage: 'https://images.wsj.net/im-910714/social',
+      publishedAt: '2024-01-10T23:14:04Z',
+      content:
+        'Aaron Rodgers wont appear on ESPNs The Pat McAfee Show for the rest of the National Football League season, a move that comes after the star quarterback engulfed the show and the network in a weeklon… [+334 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Vicky Ge Huang, Paul Kiernan',
+      title: 'SEC Approves Bitcoin ETFs for Everyday Investors',
+      description:
+        'The exchange-traded funds will allow investors to buy bitcoin as easily as stocks or mutual funds',
+      url: 'https://www.wsj.com/finance/regulation/sec-approves-bitcoin-etfs-for-everyday-investors-dc3125ef',
+      urlToImage: 'https://images.wsj.net/im-910687/social',
+      publishedAt: '2024-01-10T22:20:00Z',
+      content:
+        'The U.S. Securities and Exchange Commission voted Wednesday to allow mainstream investors to buy and sell bitcoin as easily as stocks and mutual funds, a decision hailed by the industry \r\nas a game c… [+444 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Jessica Toonkel, Miriam Gottfried',
+      title:
+        'Skydance Backers Explore All-Cash Deal to Gain Control of Paramount',
+      description:
+        'CEO Ellison, his father, Larry, and other investors are in talks to buy Redstone’s stake in National Amusements, Paramount’s parent',
+      url: 'https://www.wsj.com/business/media/skydance-backers-explore-all-cash-deal-to-gain-control-of-paramount-3530a409',
+      urlToImage: 'https://images.wsj.net/im-910549/social',
+      publishedAt: '2024-01-10T19:04:00Z',
+      content:
+        'Shari Redstone, whose family controls Paramount Global, has entertained several offers over the years to buy its famed movie studio. Skydance Media CEO David Ellison is eyeing something more ambitiou… [+441 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'wsj',
+      title: 'U.S., U.K. Warships Shoot Down Houthi Barrage in Red Sea...',
+      description:
+        'As U.S. considers retaliatory strikes in Yemen, Secretary of State Antony Blinken campaigns to contain regional conflicts',
+      url: 'https://www.wsj.com/world/middle-east/houthis-launch-fresh-red-sea-barrage-as-blinken-tries-to-contain-gaza-war-91fed4fb',
+      urlToImage: 'https://images.wsj.net/im-910451/social',
+      publishedAt: '2024-01-10T19:00:03Z',
+      content:
+        'U.S., U.K. Warships Shoot Down Houthi Barrage in Red SeaRAMALLAH, West Bank—U.S. and British warships shot down one of the largest barrages of missiles and drones fired by Yemen’s Houthi rebels into … [+1027 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Lexi Mainland',
+      title:
+        'Why Americans Want a ‘Snug,’ a Special Room That’s an ‘Instant Magic Pill’ of Comfort',
+      description:
+        'As sprawling, noisy open-concept floor plans prove divisive, some homeowners are adopting the British snug—a small, comfy, den-like space where a television doesn’t dominate the décor or the vibe',
+      url: 'https://www.wsj.com/style/design/snug-room-interior-design-08f08f26',
+      urlToImage: 'https://images.wsj.net/im-909652/social',
+      publishedAt: '2024-01-10T18:00:00Z',
+      content:
+        'SMALL ROOMS set the mind on the right path. Large ones cause it to go astray, wrote Leonardo da Vinci 500 years ago. And though open-concept floor plans have dominated home design for half a century,… [+632 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Will Feuer',
+      title: 'EchoStar Stock Jumps After Hiring Advisors to Evaluate Options',
+      description:
+        'Telecommunications company recently closed its merger with its sister company Dish Network',
+      url: 'https://www.wsj.com/business/telecom/echostar-stock-jumps-after-hiring-advisors-to-evaluate-options-03cfaeb9',
+      urlToImage: 'https://images.wsj.net/im-910532/social',
+      publishedAt: '2024-01-10T16:43:00Z',
+      content:
+        'Shares of EchoStar, which recently merged with Dish Network, jumped after the telecommunications company said it has hired advisors to help evaluate potential strategic alternatives.\r\nThe stock climb… [+190 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Andrew Beaton',
+      title: 'He Sings A Cappella. Then He Destroys Quarterbacks...',
+      description:
+        'Before Kobie Turner emerged as standout defensive tackle for the Los Angeles Rams, he was a multitalented musician and the star of his college a cappella group',
+      url: 'https://www.wsj.com/sports/football/kobie-turner-rams-a-cappella-19d6795a',
+      urlToImage: 'https://images.wsj.net/im-909987/social',
+      publishedAt: '2024-01-10T15:43:37Z',
+      content:
+        'Back when he was a standout defensive tackle on the University of Richmond football team, Kobie Turner spent the morning of homecoming reviewing his playbook, taping his joints and limbering up to pl… [+357 chars]'
+    },
+    {
+      source: {
+        id: 'the-wall-street-journal',
+        name: 'The Wall Street Journal'
+      },
+      author: 'Max Colchester, Joanna Sugden',
+      title:
+        'Thousand People Were Convicted of Stealing Over Decades. It Was Computer Glitch!',
+      description:
+        'Thousand People Were Convicted of Stealing Over Decades. It Was Computer Glitch!\r\n\n \n \n \n (Third column, 15th story, link)\r\n\n \r\n\n \r\n\n \n \n Drudge Report Feed needs your support!   Become a Patron',
+      url: 'https://www.wsj.com/world/uk/nearly-a-thousand-people-were-convicted-of-stealing-over-decades-it-was-a-computer-glitch-c3290fcf',
+      urlToImage: 'https://images.wsj.net/im-910441/social',
+      publishedAt: '2024-01-10T15:43:37Z',
+      content:
+        'LONDONThe U.K. government has taken the rare step of proposing a law to overturn hundreds of convictions of people running post offices across Britain who were found guilty of theft or false accounti… [+403 chars]'
     }
   ]
 }
