@@ -42,7 +42,7 @@ export const useMainStore = defineStore('mainStore', () => {
   const addHeaderData = () => {
     headerSingleNews.value =
       newsList.value[randomInteger(4, newsList.value.length)]
-    headerNewsList.value = newsList.value.filter((_, idx) => idx <= 3)
+    headerNewsList.value = newsList.value.filter((_, idx) => idx > 1 && idx <= 5)
   }
 
   // Newest
