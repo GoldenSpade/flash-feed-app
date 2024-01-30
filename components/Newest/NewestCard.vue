@@ -22,12 +22,14 @@
       v-tooltip="article.description"
       class="newest__card-subtitle"
     >
-      {{ cutText(article.description, 0, 50) }}
+      {{ cutText(article.description, 0, 45) }}
     </a>
     <div class="newest__card-footer">
       <div class="newest__card-author">
-        <span class="newest__card-footer-label">Author:</span>
-        {{ cutText(article.author, 0, 6) }}
+        <span class="newest__card-footer-label">Author: </span>
+        <span class="newest__card-footer-author" v-tooltip="article.author">{{
+          cutText(article.author, 0, 6)
+        }}</span>
       </div>
       <div class="newest__card-date">
         <span class="newest__card-footer-label">Date:</span>

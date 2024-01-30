@@ -52,11 +52,11 @@ export const useMainStore = defineStore('mainStore', () => {
   const addNewestData = () => {
     if (showMoreNewestNewsList.value) {
       newestNewsList.value = newsList.value.filter(
-        (_, idx) => idx > 3 && idx <= 23
+        (_, idx) => idx > 5 && idx <= 25
       )
     } else {
       newestNewsList.value = newsList.value.filter(
-        (_, idx) => idx > 3 && idx <= 7
+        (_, idx) => idx > 5 && idx <= 9
       )
     }
   }
@@ -79,7 +79,7 @@ export const useMainStore = defineStore('mainStore', () => {
     trendingSingleNews.value = newsList.value[24]
 
     trendingNewsList.value = newsList.value.filter(
-      (_, idx) => idx > 24 && idx <= 30
+      (_, idx) => idx > 25 && idx <= 31
     )
   }
 

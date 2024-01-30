@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "remove-gh-pages": "git push origin --delete gh-pages",
     "deploy": "gh-pages -d dist",
     "build": "nuxt build",
     "dev": "nuxt dev",

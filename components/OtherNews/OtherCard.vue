@@ -24,7 +24,7 @@
     </a>
     <div class="other__card-author">
       <div class="other__card-label">Author:</div>
-      <div class="other__card-author-name">
+      <div class="other__card-author-name" v-tooltip="article.author">
         {{ cutText(article.author, 0, 8) }}
       </div>
     </div>
